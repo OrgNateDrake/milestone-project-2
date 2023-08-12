@@ -34,11 +34,93 @@ h1 {
     }
 }
 
+/* Flickering animation OFF for accessibility */
+
+@media screen and (prefers-reduced-motion) { 
+    
+    h1 {
+        animation: none;
+    }
+}
+
 body {
     font-family: "Tektur", sans-serif;
     font-weight: 400;
-    background-color: #010a01;
+    background-image: url(/images/green-bricks.jpg);
 }
+
+/* ================================================================ Game Buttons =================================================================*/
+
+.board, button {
+    margin-bottom: 50px;
+}
+
+#shuffle {
+    color: #fff;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px #bc13fe,
+        0 0 82px #bc13fe,
+        0 0 92px #bc13fe,
+        0 0 102px #bc13fe,
+        0 0 151px #bc13fe;
+}
+
+#shuffle :hover {
+    color: #bc13fe;
+}
+
+#solve {
+    color: #fff;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px #bc13fe,
+        0 0 82px #bc13fe,
+        0 0 92px #bc13fe,
+        0 0 102px #bc13fe,
+        0 0 151px #bc13fe;
+}
+
+#solve :hover {
+    color: #bc13fe;
+}
+
+#hide {
+    color: #fff;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px #bc13fe,
+        0 0 82px #bc13fe,
+        0 0 92px #bc13fe,
+        0 0 102px #bc13fe,
+        0 0 151px #bc13fe;
+}
+
+#hide :hover {
+    color: #bc13fe;
+}
+
 
 /* ================================================================ Board =================================================================*/
 
+.board .row div {
+	display: inline-block;
+	height: 100px;
+	width: 100px;
+	background-color: #000;
+	border: 5px solid #0fa;
+}
+
+.board .row div:hover {
+	cursor: pointer;
+}
+
+.board .row div.yellow {
+	border: 5px solid #bc13fe;
+}
