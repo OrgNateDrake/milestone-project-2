@@ -47,7 +47,6 @@ h1 {
 body {
     font-family: "Tektur", sans-serif;
     font-weight: 400;
-    background-image: url(/assets/images/background.jpg);
 }
 
 /* ================================================================ Game Buttons =================================================================*/
@@ -108,7 +107,7 @@ body {
 }
 
 
-/* ================================================================ Board =================================================================*/
+/* ================================================================ Game Board =================================================================*/
 
 .board .row{
     padding-left: 25%;
@@ -128,5 +127,13 @@ body {
 }
 
 .board .row div.yellow {
-	border: 5px solid #bc13fe;
+	border: 5px solid #ffe81c;
+}
+
+.on {
+	background-color: #bc13fe !important;
+}
+
+.not-show {
+	display: none;
 }
