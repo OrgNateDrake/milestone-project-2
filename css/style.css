@@ -121,14 +121,22 @@ body {
 	height: 100px;
 	width: 100px;
 	background-color: #000;
-	border: 5px solid #0fa;
+	border: 0.2rem solid #fff;
+    border-radius: 2rem;
+    padding: 0.4em;
+    box-shadow: 0 0 .2rem #fff,
+            0 0 .2rem #fff,
+            0 0 2rem #bc13fe,
+            0 0 0.8rem #bc13fe,
+            0 0 2.8rem #bc13fe,
+            inset 0 0 1.3rem #bc13fe;
 }
 
 .board .row div:hover {
 	cursor: pointer;
 }
 
-.board .row div.yellow {
+.board .row div.gold {
 	border: 5px solid #ffe81c;
 }
 
