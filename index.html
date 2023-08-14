@@ -31,7 +31,7 @@
                       <li><a class="dropdown-item" href="#">Standard</a></li>
                       <li><a class="dropdown-item" href="#">Hard</a></li>
                     </ul>  
-                  <li class="nav-item dropdown">
+                    <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Theme
                     </a>
@@ -40,6 +40,10 @@
                       <li><a class="dropdown-item" href="jungle.html">Jungle!</a></li>
                       <li><a class="dropdown-item" href="index.html">City Nights!</a></li>
                     </ul>
+                    </li>
+                    <a class="nav-link">
+                    <button type="button" class="btn btn-outline-dark btn-sm" data-bs-toggle="modal" data-bs-target="#moreInfoModal" aria-label="Click button to see rules">How to Play!</button>
+                    </a>
                   </li>
                 </ul>
               </div>
@@ -119,6 +123,23 @@
             </div>
         </div>
     </section>
+
+    <!------------Bootstrap Modal------------>
+
+  <div class="modal fade" id="moreInfoModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title fs-5" id="moreInfoModalLabel">Games Rules</h3>
+        </div>
+        <div class="modal-body">
+          <p>Rules Here</p>
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
     <script src="js/index.js"></script>
   </body>

@@ -1,6 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Tektur:wght@400;500;600;700;800;900&display=swap");
 
-/* ================================================================= Main Title =================================================================*/
+/* ================================================================ Main Colors ================================================================= */
+
+/* = (#0fa - Neon Green), (#bc13fe - Electric Pink) and (#fff - White) = */
+
+/* ================================================================= Navigation ================================================================= */
+
+header, .btn {
+    font-family: "Tektur", sans-serif;
+    font-weight: 500;
+    background-color: #fff;
+}
+
+/* ================================================================= Main Title ================================================================= */
 
 .neon-home-title {
     animation: flicker 1.5s infinite alternate;
@@ -67,7 +79,7 @@ body {
     color: #fff;
     border: none;
     background: none;
-    font-size: 30px;
+    font-size: 25px;
     border: 0.2rem solid #fff;
     border-radius: 2rem;
     padding: 0.4em;
@@ -97,7 +109,7 @@ body {
     color: #fff;
     border: none;
     background: none;
-    font-size: 30px;
+    font-size: 25px;
     border: 0.2rem solid #fff;
     border-radius: 2rem;
     padding: 0.4em;
@@ -127,7 +139,7 @@ body {
     color: #fff;
     border: none;
     background: none;
-    font-size: 30px;
+    font-size: 25px;
     border: 0.2rem solid #fff;
     border-radius: 2rem;
     padding: 0.4em;
