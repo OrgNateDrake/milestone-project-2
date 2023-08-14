@@ -199,6 +199,7 @@
 		e.addEventListener('click', function(event) {
 			var aux = parseInt(this.id, 10);
 			var toSwitch = [aux, aux - 5, aux + 5];
+            const myModal = document.getElementById('myModal');
 
 			if (aux % 5 !== 0) {
 				toSwitch.push(aux + 1);
@@ -228,7 +229,10 @@
 			}
 
 			if (hasWon()) {
-				alert('Congratulations, LIGHTS OUT!');
+                
+                myModal.addEventListener('shown.bs.modal', () => {
+                    myInput.focus()
+                  });
 
 				cells.forEach(function(e, i) {
 					e.className = '';
