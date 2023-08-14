@@ -178,7 +178,7 @@
 		x.forEach(function(e, index) {
 			if (e === one) {
 				var element = document.getElementById(index + 1);
-				element.classList.add('gold');
+				element.classList.add('answer');
 				element.classList.add('solver');
 			}
 		});
@@ -190,7 +190,7 @@
 		this.className = 'not-show';
 
 		cells.forEach(function(e, i) {
-			e.classList.remove('gold');
+			e.classList.remove('answer');
 			e.classList.remove('solver');
 		});
 	});
@@ -199,7 +199,6 @@
 		e.addEventListener('click', function(event) {
 			var aux = parseInt(this.id, 10);
 			var toSwitch = [aux, aux - 5, aux + 5];
-            const myModal = document.getElementById('myModal');
 
 			if (aux % 5 !== 0) {
 				toSwitch.push(aux + 1);
@@ -208,11 +207,11 @@
 				toSwitch.push(aux - 1);
 			}
 
-			if (this.classList.contains('gold')) {
-				this.classList.remove('gold');
+			if (this.classList.contains('answer')) {
+				this.classList.remove('answer');
 			}
 			else if (this.classList.contains('solver')) {
-				this.classList.add('gold');
+				this.classList.add('answer');
 			}
 
 			for (var i = toSwitch.length - 1; i >= 0; i--) {
@@ -230,9 +229,7 @@
 
 			if (hasWon()) {
                 
-                myModal.addEventListener('shown.bs.modal', () => {
-                    myInput.focus()
-                  });
+                alert('Congratulations, You Win!!');
 
 				cells.forEach(function(e, i) {
 					e.className = '';
