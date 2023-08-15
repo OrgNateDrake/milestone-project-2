@@ -2,14 +2,37 @@
 
 /* ================================================================ Main Colors ================================================================= */
 
-/* = (#0fa - Neon Green), (#bc13fe - Electric Pink) and (#fff - White) = */
+/* = (#0fa - Neon Green), (#bc13fe - Electric Pink), (#9900ff - Plasma Purple), (#ae8625/#f7ef8a - Gold FX) and (#fff - White) = */
 
 /* ================================================================= Navigation ================================================================= */
+
+.navbar {
+    background-color: #fff;
+}
+
+.navbar a {
+    color: #000;
+}
+
+.navbar a:hover {
+    color: #0fa;
+    background-color: #fff;
+}
+
 
 header, .btn {
     font-family: "Tektur", sans-serif;
     font-weight: 500;
+}
+
+#rules-btn {
+    border-color: #fff;
     background-color: #fff;
+    font-weight: 500;
+}
+
+#rules-btn:hover {
+    color: #0fa;
 }
 
 /* ================================================================= Main Title ================================================================= */
@@ -101,8 +124,26 @@ body {
         inset 0 0 1.3rem #bc13fe;
 }
 
-#shuffle :hover {
-    color: #bc13fe;
+#shuffle:hover {
+    border: 0.2rem solid #fff;
+    border-radius: 2rem;
+    padding: 0.4em;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px #9900ff,
+        0 0 82px #9900ff,
+        0 0 92px #9900ff,
+        0 0 102px #9900ff,
+        0 0 151px #9900ff;
+    box-shadow: 
+        0 0 .2rem #fff,
+        0 0 .2rem #fff,
+        0 0 2rem  #9900ff,
+        0 0 0.8rem #9900ff,
+        0 0 2.8rem #9900ff,
+        inset 0 0 1.3rem #9900ff;
 }
 
 #solve {
@@ -131,8 +172,26 @@ body {
         inset 0 0 1.3rem #bc13fe;
 }
 
-#solve :hover {
-    color: #bc13fe;
+#solve:hover {
+    border: 0.2rem solid #fff;
+    border-radius: 2rem;
+    padding: 0.4em;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px #9900ff,
+        0 0 82px #9900ff,
+        0 0 92px #9900ff,
+        0 0 102px #9900ff,
+        0 0 151px #9900ff;
+    box-shadow: 
+        0 0 .2rem #fff,
+        0 0 .2rem #fff,
+        0 0 2rem  #9900ff,
+        0 0 0.8rem #9900ff,
+        0 0 2.8rem #9900ff,
+        inset 0 0 1.3rem #9900ff;
 }
 
 #hide {
@@ -161,8 +220,26 @@ body {
         inset 0 0 1.3rem #bc13fe;
 }
 
-#hide :hover {
-    color: #bc13fe;
+#hide:hover {
+    border: 0.2rem solid #fff;
+    border-radius: 2rem;
+    padding: 0.4em;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px #9900ff,
+        0 0 82px #9900ff,
+        0 0 92px #9900ff,
+        0 0 102px #9900ff,
+        0 0 151px #9900ff;
+    box-shadow: 
+        0 0 .2rem #fff,
+        0 0 .2rem #fff,
+        0 0 2rem  #9900ff,
+        0 0 0.8rem #9900ff,
+        0 0 2.8rem #9900ff,
+        inset 0 0 1.3rem #9900ff;
 }
 
 
@@ -235,7 +312,16 @@ h2 {
 }
 
 #game-board .row div.answer {
-	border: 5px solid #bc13fe;
+	border: 0.2rem solid #fff;
+    border-radius: 2rem;
+    padding: 0.4em;
+    box-shadow: 
+        0 0 .2rem #f7ef8a,
+        0 0 .2rem #f7ef8a,
+        0 0 2rem #ae8625,
+        0 0 0.8rem #ae8625,
+        0 0 1.8rem #ae8625,
+        inset 0 0 1rem #ae8625;
 }
 
 .on {
@@ -245,3 +331,27 @@ h2 {
 .not-show {
 	display: none;
 }
+
+/* ================================================================ Rules Modal ================================================================= */
+
+#rules-modal-close-btn {
+    background-color: #fff;
+    color: #000;
+}
+
+#rules-modal-close-btn:hover {
+    color: #0fa;
+}
+
+.modal p {
+    text-align: center;
+}
+
+@media (max-width:736px){
+    
+    .modal img {
+    width: 300px;
+    height: 100px;
+    }
+}
+

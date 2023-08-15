@@ -14,19 +14,19 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar navbar-expand-lg bg-body-white">
             <div class="container-fluid px-3">
-              <a class="navbar-brand" aria-current="page" href="index.html">LIGHTS OUT!</a>
+              <a class="navbar-brand ps-2" aria-current="page" href="index.html">LIGHTS OUT!</a>
               <button class="navbar-toggler m-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
+                <ul class="navbar-nav me-auto">
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Difficulty
                     </a>
-                    <ul class="dropdown-menu">
+                    <ul class="dropdown-menu me-auto">
                       <li><a class="dropdown-item" href="#">Easy</a></li>
                       <li><a class="dropdown-item" href="#">Standard</a></li>
                       <li><a class="dropdown-item" href="#">Hard</a></li>
@@ -41,11 +41,11 @@
                       <li><a class="dropdown-item" href="index.html">City Nights!</a></li>
                     </ul>
                     </li>
-                    <a class="nav-link">
-                    <button type="button" class="btn btn-outline-dark btn-sm" data-bs-toggle="modal" data-bs-target="#moreInfoModal" aria-label="Click button to see rules">How to Play!</button>
-                    </a>
                   </li>
                 </ul>
+                <a class="nav-link d-flex">
+                <button id="rules-btn" type="button" class="btn px-0 pe-2" data-bs-toggle="modal" data-bs-target="#moreInfoModal" aria-label="Click button to see rules">How to Play</button>
+                </a>
               </div>
             </div>
           </nav>
@@ -68,7 +68,7 @@
             <div class="container text-center">
                 <button id="shuffle" type="button" class="btn btn-dark">Shuffle</button>
 			          <button id="solve" type="button" class="btn btn-dark">Show Solution</button>
-                <button id="hide" type="button" class="btn btn-dark not-show">Hide Solution</button>
+                <button id="hide" type="button" class="btn btn-dark align-bottom not-show">Hide Solution</button>
             </div>
             <div class="container text-center">
                 <div class="row">
@@ -133,8 +133,17 @@
           <h3 class="modal-title fs-5" id="moreInfoModalLabel">Games Rules</h3>
         </div>
         <div class="modal-body">
-          <p>Rules Here</p>
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <p>The game consists of a 5 by 5 grid of lights. When the game starts, a random pattern of these lights is switched on. Pressing any of the lights 
+            will toggle it and the adjacent lights on and off. The goal of the puzzle is to switch all the lights off, preferably with as few button presses as possible.</p>
+          <h4>How to Play!</h4>
+          <p>(1) Start the game by pressing the 'Shuffle' button.<br>(2)Then select a box to turn the light 'on' or 'off'. When you select a box with a light on, that light will turn off, 
+            and the lights around it will turn on/off - dependant on whether they are already on/off, see image below.</p>
+          <div class="d-flex justify-content-center">
+            <img src="assets/images/lights-out-game-play.png">
+          </div>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+          <button id="rules-modal-close-btn" type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
         </div>
       </div>
     </div>
