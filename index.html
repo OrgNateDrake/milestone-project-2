@@ -27,9 +27,9 @@
                         Difficulty
                     </a>
                     <ul class="dropdown-menu me-auto">
-                      <li><a class="dropdown-item" href="#">Easy</a></li>
-                      <li><a class="dropdown-item" href="#">Standard</a></li>
-                      <li><a class="dropdown-item" href="#">Hard</a></li>
+                      <li><a class="dropdown-item" href="#">Easy - Coming Soon!</a></li>
+                      <li><a class="dropdown-item" href="#">Standard - Coming Soon!</a></li>
+                      <li><a class="dropdown-item" href="#">Hard - Coming Soon!</a></li>
                     </ul>  
                     <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -67,7 +67,7 @@
         <div class="board">
             <div class="container text-center">
                 <button id="shuffle" type="button" class="btn btn-dark">Shuffle</button>
-			          <button id="solve" type="button" class="btn btn-dark">Show Solution</button>
+			          <button id="solve" type="button" class="btn btn-dark mx-3">Show Solution</button>
                 <button id="hide" type="button" class="btn btn-dark align-bottom not-show">Hide Solution</button>
             </div>
             <div class="container text-center">
@@ -135,9 +135,14 @@
         <div class="modal-body">
           <p>The game consists of a 5 by 5 grid of lights. When the game starts, a random pattern of these lights is switched on. Pressing any of the lights 
             will toggle it and the adjacent lights on and off. The goal of the puzzle is to switch all the lights off, preferably with as few button presses as possible.</p>
-          <h4>How to Play!</h4>
-          <p>(1) Start the game by pressing the 'Shuffle' button.<br>(2)Then select a box to turn the light 'on' or 'off'. When you select a box with a light on, that light will turn off, 
-            and the lights around it will turn on/off - dependant on whether they are already on/off, see image below.</p>
+          <h3>How to Play!</h3>
+          <span><strong><i class="fa-solid fa-angle-down"></i></strong></span>
+          <span><strong><i class="fa-solid fa-angle-down"></i></strong></span>
+          <span><strong><i class="fa-solid fa-angle-down"></i></strong></span>
+          <p>(1) - Start the game by pressing the 'Shuffle' button.<br>(2) - Click a box to turn the light 'on' or 'off'. When you select a box with a light 'on', that light will turn 'off', 
+            and the lights around it will also turn 'on/off' in a fixed pattern - dependant on whether they are already 'on/off', (see image below).<br>(3) - If you need help - Press 'Show Solution' to see which boxes 
+            to click. To turn help off - Press 'Hide Solution'.<br>(4) - The game will end when all lights are 'off' and a 'Congratulations' message will appear on screen.<br>
+            (5) - To reset the game - Click the 'LIGHTS OUT' link at the top right of the page.</p>
           <div class="d-flex justify-content-center">
             <img src="assets/images/lights-out-game-play.png">
           </div>

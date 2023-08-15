@@ -58,6 +58,24 @@ h1 {
             0 0 2.8rem #0fa,
             inset 0 0 1.3rem #0fa;
 }
+
+@media (min-width:320px) and (max-width:414px){
+    
+    H1 {
+        font-size: 3rem;
+        min-width: fit-content;
+        border: 0.2rem solid #fff;
+        border-radius: 1.5rem;
+        padding: 0.3em;
+        box-shadow: 
+                0 0 1.5rem #fff,
+                0 0 1.5rem #fff,
+                0 0 1.5rem  #0fa,
+                0 0 0.6rem #0fa,
+                0 0 3.1rem #0fa,
+                inset 0 0 1rem #0fa;
+        }
+}
   
 /* Flickering animation */
 
@@ -343,8 +361,16 @@ h2 {
     color: #0fa;
 }
 
-.modal p {
+.modal, h4, p {
     text-align: center;
+}
+
+.modal span {
+    color: #bc13fe; 
+}
+
+.modal img {
+    padding-bottom: 25px;
 }
 
 @media (max-width:736px){
