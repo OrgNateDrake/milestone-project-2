@@ -127,7 +127,7 @@
 		}
 		return b;
 	};
-	var hasWon = function() {
+	var youWon = function() {
 		return document.querySelector('.on') === null;
 	};
 	var getCurrentState = function() {
@@ -227,14 +227,10 @@
 				}
 			}
 
-			if (hasWon()) {
+			if (youWon()) {
                 
-                alert('Congratulations, You Win!!');
-
-				cells.forEach(function(e, i) {
-					e.className = '';
-					hide.className = 'not-show';
-				});
+                alert('Congratulations, You Win!!');	
+			
 			}
 		});
 	});
