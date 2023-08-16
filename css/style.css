@@ -77,7 +77,7 @@ h1 {
         }
 }
   
-/* Flickering animation */
+/* Flickering animation for H1 and Socials in Footer */
 
 @keyframes flicker {
       
@@ -417,3 +417,40 @@ h2 {
     }
 }
 
+/* ================================================================ Footer ================================================================= */
+
+#footer-main {
+    font-family: "Tektur", sans-serif;
+    font-weight: 400;
+    color: #fff;
+    background-color: none;
+}
+
+#footer-copyright {
+    font-size: 1rem;
+    padding-top: 50px;
+}
+
+@media (min-width:320px) and (max-width:414px){
+
+    #footer-copyright {
+        font-size: 0.7rem;
+        padding-top: 20px;
+    }
+}
+
+.social-links li a i {
+    animation: flicker 1.5s infinite alternate;
+    font-size: 2rem;
+    color: #fff;
+    padding-top: 50px;
+}
+
+@media (min-width:320px) and (max-width:414px){
+
+    .social-links li a i {
+        font-size: 1rem;
+        color: #fff;
+        padding-top: 25px;
+    }
+}
