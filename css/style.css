@@ -120,26 +120,55 @@ body {
     color: #fff;
     border: none;
     background: none;
-    font-size: 25px;
+    font-size: 30px;
     border: 0.2rem solid #fff;
     border-radius: 2rem;
     padding: 0.4em;
     text-shadow:
-        0 0 7px #fff,
+        0 0 8px #fff,
         0 0 10px #fff,
-        0 0 21px #fff,
-        0 0 42px #bc13fe,
-        0 0 82px #bc13fe,
-        0 0 92px #bc13fe,
-        0 0 102px #bc13fe,
-        0 0 151px #bc13fe;
+        0 0 20px #fff,
+        0 0 40px #bc13fe,
+        0 0 80px #bc13fe,
+        0 0 90px #bc13fe,
+        0 0 100px #bc13fe,
+        0 0 150px #bc13fe;
     box-shadow: 
         0 0 .2rem #fff,
         0 0 .2rem #fff,
         0 0 2rem  #bc13fe,
         0 0 0.8rem #bc13fe,
         0 0 2.8rem #bc13fe,
-        inset 0 0 1.3rem #bc13fe;
+        inset 0 0 1.4rem #bc13fe;
+}
+
+@media (min-width:320px) and (max-width:414px){
+
+    #shuffle {
+        color: #fff;
+        border: none;
+        background: none;
+        font-size: 15px;
+        border: 0.1rem solid #fff;
+        border-radius: 1rem;
+        padding: 0.2em;
+        text-shadow:
+            0 0 4px #fff,
+            0 0 5px #fff,
+            0 0 10px #fff,
+            0 0 20px #bc13fe,
+            0 0 40px #bc13fe,
+            0 0 45px #bc13fe,
+            0 0 50px #bc13fe,
+            0 0 75px #bc13fe;
+        box-shadow: 
+            0 0 .1rem #fff,
+            0 0 .1rem #fff,
+            0 0 1rem  #bc13fe,
+            0 0 0.4rem #bc13fe,
+            0 0 1.4rem #bc13fe,
+            inset 0 0 0.7rem #bc13fe;
+    }
 }
 
 #shuffle:hover {
@@ -147,47 +176,102 @@ body {
     border-radius: 2rem;
     padding: 0.4em;
     text-shadow:
-        0 0 7px #fff,
+        0 0 8px #fff,
         0 0 10px #fff,
-        0 0 21px #fff,
-        0 0 42px #9900ff,
-        0 0 82px #9900ff,
-        0 0 92px #9900ff,
-        0 0 102px #9900ff,
-        0 0 151px #9900ff;
+        0 0 20px #fff,
+        0 0 40px #9900ff,
+        0 0 80px #9900ff,
+        0 0 90px #9900ff,
+        0 0 100px #9900ff,
+        0 0 150px #9900ff;
     box-shadow: 
         0 0 .2rem #fff,
         0 0 .2rem #fff,
         0 0 2rem  #9900ff,
         0 0 0.8rem #9900ff,
         0 0 2.8rem #9900ff,
-        inset 0 0 1.3rem #9900ff;
+        inset 0 0 1.4rem #9900ff;
+}
+
+@media (min-width:320px) and (max-width:414px){
+
+    #shuffle:hover {
+        border: 0.1rem solid #fff;
+        border-radius: 1rem;
+        padding: 0.2em;
+        text-shadow:
+            0 0 4px #fff,
+            0 0 5px #fff,
+            0 0 10px #fff,
+            0 0 20px #9900ff,
+            0 0 40px #9900ff,
+            0 0 45px #9900ff,
+            0 0 50px #9900ff,
+            0 0 75px #9900ff;
+        box-shadow: 
+            0 0 .1rem #fff,
+            0 0 .1rem #fff,
+            0 0 1rem  #9900ff,
+            0 0 0.4rem #9900ff,
+            0 0 1.4rem #9900ff,
+            inset 0 0 0.7rem #9900ff;
+    }
+
 }
 
 #solve {
     color: #fff;
     border: none;
     background: none;
-    font-size: 25px;
+    font-size: 30px;
     border: 0.2rem solid #fff;
     border-radius: 2rem;
     padding: 0.4em;
     text-shadow:
-        0 0 7px #fff,
+        0 0 8px #fff,
         0 0 10px #fff,
-        0 0 21px #fff,
-        0 0 42px #bc13fe,
-        0 0 82px #bc13fe,
-        0 0 92px #bc13fe,
-        0 0 102px #bc13fe,
-        0 0 151px #bc13fe;
+        0 0 20px #fff,
+        0 0 40px #bc13fe,
+        0 0 80px #bc13fe,
+        0 0 90px #bc13fe,
+        0 0 100px #bc13fe,
+        0 0 150px #bc13fe;
     box-shadow: 
         0 0 .2rem #fff,
         0 0 .2rem #fff,
         0 0 2rem  #bc13fe,
         0 0 0.8rem #bc13fe,
         0 0 2.8rem #bc13fe,
-        inset 0 0 1.3rem #bc13fe;
+        inset 0 0 1.4rem #bc13fe;
+}
+
+@media (min-width:320px) and (max-width:414px){
+
+    #solve {
+        color: #fff;
+        border: none;
+        background: none;
+        font-size: 15px;
+        border: 0.1rem solid #fff;
+        border-radius: 1rem;
+        padding: 0.2em;
+        text-shadow:
+            0 0 4px #fff,
+            0 0 5px #fff,
+            0 0 10px #fff,
+            0 0 20px #bc13fe,
+            0 0 40px #bc13fe,
+            0 0 45px #bc13fe,
+            0 0 50px #bc13fe,
+            0 0 75px #bc13fe;
+        box-shadow: 
+            0 0 .1rem #fff,
+            0 0 .1rem #fff,
+            0 0 1rem  #bc13fe,
+            0 0 0.4rem #bc13fe,
+            0 0 1.4rem #bc13fe,
+            inset 0 0 0.7rem #bc13fe;
+    }
 }
 
 #solve:hover {
@@ -195,47 +279,101 @@ body {
     border-radius: 2rem;
     padding: 0.4em;
     text-shadow:
-        0 0 7px #fff,
+        0 0 8px #fff,
         0 0 10px #fff,
-        0 0 21px #fff,
-        0 0 42px #9900ff,
-        0 0 82px #9900ff,
-        0 0 92px #9900ff,
-        0 0 102px #9900ff,
-        0 0 151px #9900ff;
+        0 0 20px #fff,
+        0 0 40px #9900ff,
+        0 0 80px #9900ff,
+        0 0 90px #9900ff,
+        0 0 100px #9900ff,
+        0 0 150px #9900ff;
     box-shadow: 
         0 0 .2rem #fff,
         0 0 .2rem #fff,
         0 0 2rem  #9900ff,
         0 0 0.8rem #9900ff,
         0 0 2.8rem #9900ff,
-        inset 0 0 1.3rem #9900ff;
+        inset 0 0 1.4rem #9900ff;
+}
+
+@media (min-width:320px) and (max-width:414px){
+
+    #solve:hover {
+        border: 0.1rem solid #fff;
+        border-radius: 1rem;
+        padding: 0.2em;
+        text-shadow:
+            0 0 4px #fff,
+            0 0 5px #fff,
+            0 0 10px #fff,
+            0 0 20px #9900ff,
+            0 0 40px #9900ff,
+            0 0 45px #9900ff,
+            0 0 50px #9900ff,
+            0 0 75px #9900ff;
+        box-shadow: 
+            0 0 .1rem #fff,
+            0 0 .1rem #fff,
+            0 0 1rem  #9900ff,
+            0 0 0.4rem #9900ff,
+            0 0 1.4rem #9900ff,
+            inset 0 0 0.7rem #9900ff;
+    }
 }
 
 #hide {
     color: #fff;
     border: none;
     background: none;
-    font-size: 25px;
+    font-size: 30px;
     border: 0.2rem solid #fff;
     border-radius: 2rem;
     padding: 0.4em;
     text-shadow:
-        0 0 7px #fff,
+        0 0 8px #fff,
         0 0 10px #fff,
-        0 0 21px #fff,
-        0 0 42px #bc13fe,
-        0 0 82px #bc13fe,
-        0 0 92px #bc13fe,
-        0 0 102px #bc13fe,
-        0 0 151px #bc13fe;
+        0 0 20px #fff,
+        0 0 40px #bc13fe,
+        0 0 80px #bc13fe,
+        0 0 90px #bc13fe,
+        0 0 100px #bc13fe,
+        0 0 150px #bc13fe;
     box-shadow: 
         0 0 .2rem #fff,
         0 0 .2rem #fff,
         0 0 2rem  #bc13fe,
         0 0 0.8rem #bc13fe,
         0 0 2.8rem #bc13fe,
-        inset 0 0 1.3rem #bc13fe;
+        inset 0 0 1.4rem #bc13fe;
+}
+
+@media (min-width:320px) and (max-width:414px){
+
+    #hide {
+        color: #fff;
+        border: none;
+        background: none;
+        font-size: 15px;
+        border: 0.1rem solid #fff;
+        border-radius: 1rem;
+        padding: 0.2em;
+        text-shadow:
+            0 0 4px #fff,
+            0 0 5px #fff,
+            0 0 10px #fff,
+            0 0 20px #bc13fe,
+            0 0 40px #bc13fe,
+            0 0 45px #bc13fe,
+            0 0 50px #bc13fe,
+            0 0 75px #bc13fe;
+        box-shadow: 
+            0 0 .1rem #fff,
+            0 0 .1rem #fff,
+            0 0 1rem  #bc13fe,
+            0 0 0.4rem #bc13fe,
+            0 0 1.4rem #bc13fe,
+            inset 0 0 0.7rem #bc13fe;
+    }
 }
 
 #hide:hover {
@@ -243,37 +381,79 @@ body {
     border-radius: 2rem;
     padding: 0.4em;
     text-shadow:
-        0 0 7px #fff,
+        0 0 8px #fff,
         0 0 10px #fff,
-        0 0 21px #fff,
-        0 0 42px #9900ff,
-        0 0 82px #9900ff,
-        0 0 92px #9900ff,
-        0 0 102px #9900ff,
-        0 0 151px #9900ff;
+        0 0 20px #fff,
+        0 0 40px #9900ff,
+        0 0 80px #9900ff,
+        0 0 90px #9900ff,
+        0 0 100px #9900ff,
+        0 0 150px #9900ff;
     box-shadow: 
         0 0 .2rem #fff,
         0 0 .2rem #fff,
         0 0 2rem  #9900ff,
         0 0 0.8rem #9900ff,
         0 0 2.8rem #9900ff,
-        inset 0 0 1.3rem #9900ff;
+        inset 0 0 1.4rem #9900ff;
 }
 
+@media (min-width:320px) and (max-width:414px){
+
+    #hide:hover {
+        border: 0.1rem solid #fff;
+        border-radius: 1rem;
+        padding: 0.2em;
+        text-shadow:
+            0 0 4px #fff,
+            0 0 5px #fff,
+            0 0 10px #fff,
+            0 0 20px #9900ff,
+            0 0 40px #9900ff,
+            0 0 45px #9900ff,
+            0 0 50px #9900ff,
+            0 0 75px #9900ff;
+        box-shadow: 
+            0 0 .1rem #fff,
+            0 0 .1rem #fff,
+            0 0 1rem  #9900ff,
+            0 0 0.4rem #9900ff,
+            0 0 1.4rem #9900ff,
+            inset 0 0 0.7rem #9900ff;
+    }
+}
 
 /* ================================================================ Game Board =================================================================*/
 
 .neon-start-title {
     animation: pulsate 1.5s infinite alternate;
     color: #fff;
-    margin-top: 75px;
-    margin-bottom: 75px;
+    margin-top: 80px;
+    margin-bottom: 60px;
 }
-  
+
+@media (min-width:320px) and (max-width:414px){
+
+.neon-start-title {
+    
+        animation: pulsate 1.5s infinite alternate;
+        color: #fff;
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+}
+
 h2 {
     font-size: 2.0rem;
-    min-width: fit-content;
     white-space: nowrap;
+}
+
+@media (min-width:320px) and (max-width:414px){
+
+    h2 {
+        font-size: 1.0rem;
+        white-space: nowrap;
+    }
 }
 
 /* Pulsating animation */
@@ -403,6 +583,10 @@ h2 {
 
 .modal span {
     color: #bc13fe; 
+}
+
+#gold-word {
+    color: #ae8625;
 }
 
 .modal img {
