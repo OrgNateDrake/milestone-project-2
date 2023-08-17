@@ -1,6 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Tektur:wght@400;500;600;700;800;900&display=swap");
 
-/* ================================================================ Main Colors ================================================================= */
+/* ================================================================ City Nights Colors ================================================================= */
+
+/* = (#0fa - Neon Green), (#bc13fe - Electric Pink), (#9900ff - Plasma Purple), (#ae8625/#f7ef8a - Gold FX) and (#fff - White) = */
+
+/* ================================================================ Jungle Colors ================================================================= */
+
+/* = (#0fa - Neon Green), (#ff0000 - Neon Red), (#900603 - Ruby Red), (#ae8625/#f7ef8a - Gold FX) and (#fff - White) = */
+
+/* ================================================================ Mars Attacks Colors ================================================================= */
 
 /* = (#0fa - Neon Green), (#bc13fe - Electric Pink), (#9900ff - Plasma Purple), (#ae8625/#f7ef8a - Gold FX) and (#fff - White) = */
 
@@ -110,11 +118,24 @@ h1 {
 body {
     font-family: "Tektur", sans-serif;
     font-weight: 400;
+}
+
+#city-nights-theme {
     background-image: url('../assets/images/background.jpg');
     background-color: #fff;
 }
 
-/* ================================================================ Game Buttons =================================================================*/
+#jungle-theme {
+    background-image: url('../assets/images/jungle-background.jpg');
+    background-color: #fff;
+}
+
+#mars-attacks-theme {
+    background-image: url('#');
+    background-color: #fff;
+}
+
+/* ================================================================ Game Buttons City Theme =================================================================*/
 
 #shuffle {
     color: #fff;
@@ -423,6 +444,622 @@ body {
     }
 }
 
+/* ================================================================ Game Buttons Jungle Theme =================================================================*/
+
+#jungle-theme #shuffle {
+    color: #fff;
+    border: none;
+    background: none;
+    font-size: 30px;
+    border: 0.2rem solid #fff;
+    border-radius: 2rem;
+    padding: 0.4em;
+    text-shadow:
+        0 0 8px #fff,
+        0 0 10px #fff,
+        0 0 20px #fff,
+        0 0 40px #ff0000,
+        0 0 80px #ff0000,
+        0 0 90px #ff0000,
+        0 0 100px #ff0000,
+        0 0 150px #ff0000;
+    box-shadow: 
+        0 0 .2rem #fff,
+        0 0 .2rem #fff,
+        0 0 2rem  #ff0000,
+        0 0 0.8rem #ff0000,
+        0 0 2.8rem #ff0000,
+        inset 0 0 1.4rem #ff0000;
+}
+
+@media (min-width:320px) and (max-width:414px){
+
+    #jungle-theme #shuffle {
+        color: #fff;
+        border: none;
+        background: none;
+        font-size: 15px;
+        border: 0.1rem solid #fff;
+        border-radius: 1rem;
+        padding: 0.2em;
+        text-shadow:
+            0 0 4px #fff,
+            0 0 5px #fff,
+            0 0 10px #fff,
+            0 0 20px #ff0000,
+            0 0 40px #ff0000,
+            0 0 45px #ff0000,
+            0 0 50px #ff0000,
+            0 0 75px #ff0000;
+        box-shadow: 
+            0 0 .1rem #fff,
+            0 0 .1rem #fff,
+            0 0 1rem  #ff0000,
+            0 0 0.4rem #ff0000,
+            0 0 1.4rem #ff0000,
+            inset 0 0 0.7rem #ff0000;
+    }
+}
+
+#jungle-theme #shuffle:hover {
+    border: 0.2rem solid #fff;
+    border-radius: 2rem;
+    padding: 0.4em;
+    text-shadow:
+        0 0 8px #fff,
+        0 0 10px #fff,
+        0 0 20px #fff,
+        0 0 40px #900603,
+        0 0 80px #900603,
+        0 0 90px #900603,
+        0 0 100px #900603,
+        0 0 150px #900603;
+    box-shadow: 
+        0 0 .2rem #fff,
+        0 0 .2rem #fff,
+        0 0 2rem  #900603,
+        0 0 0.8rem #900603,
+        0 0 2.8rem #900603,
+        inset 0 0 1.4rem #900603;
+}
+
+@media (min-width:320px) and (max-width:414px){
+
+    #jungle-theme #shuffle:hover {
+        border: 0.1rem solid #fff;
+        border-radius: 1rem;
+        padding: 0.2em;
+        text-shadow:
+            0 0 4px #fff,
+            0 0 5px #fff,
+            0 0 10px #fff,
+            0 0 20px #900603,
+            0 0 40px #900603,
+            0 0 45px #900603,
+            0 0 50px #900603,
+            0 0 75px #900603;
+        box-shadow: 
+            0 0 .1rem #fff,
+            0 0 .1rem #fff,
+            0 0 1rem  #900603,
+            0 0 0.4rem #900603,
+            0 0 1.4rem #900603,
+            inset 0 0 0.7rem #900603;
+    }
+}
+
+#jungle-theme #solve {
+    color: #fff;
+    border: none;
+    background: none;
+    font-size: 30px;
+    border: 0.2rem solid #fff;
+    border-radius: 2rem;
+    padding: 0.4em;
+    text-shadow:
+        0 0 8px #fff,
+        0 0 10px #fff,
+        0 0 20px #fff,
+        0 0 40px #ff0000,
+        0 0 80px #ff0000,
+        0 0 90px #ff0000,
+        0 0 100px #ff0000,
+        0 0 150px #ff0000;
+    box-shadow: 
+        0 0 .2rem #fff,
+        0 0 .2rem #fff,
+        0 0 2rem  #ff0000,
+        0 0 0.8rem #ff0000,
+        0 0 2.8rem #ff0000,
+        inset 0 0 1.4rem #ff0000;
+}
+
+@media (min-width:320px) and (max-width:414px){
+
+    #jungle-theme #solve {
+        color: #fff;
+        border: none;
+        background: none;
+        font-size: 15px;
+        border: 0.1rem solid #fff;
+        border-radius: 1rem;
+        padding: 0.2em;
+        text-shadow:
+            0 0 4px #fff,
+            0 0 5px #fff,
+            0 0 10px #fff,
+            0 0 20px #ff0000,
+            0 0 40px #ff0000,
+            0 0 45px #ff0000,
+            0 0 50px #ff0000,
+            0 0 75px #ff0000;
+        box-shadow: 
+            0 0 .1rem #fff,
+            0 0 .1rem #fff,
+            0 0 1rem  #ff0000,
+            0 0 0.4rem #ff0000,
+            0 0 1.4rem #ff0000,
+            inset 0 0 0.7rem #ff0000;
+    }
+}
+
+#jungle-theme #solve:hover {
+    border: 0.2rem solid #fff;
+    border-radius: 2rem;
+    padding: 0.4em;
+    text-shadow:
+        0 0 8px #fff,
+        0 0 10px #fff,
+        0 0 20px #fff,
+        0 0 40px #900603,
+        0 0 80px #900603,
+        0 0 90px #900603,
+        0 0 100px #900603,
+        0 0 150px #900603;
+    box-shadow: 
+        0 0 .2rem #fff,
+        0 0 .2rem #fff,
+        0 0 2rem  #900603,
+        0 0 0.8rem #900603,
+        0 0 2.8rem #900603,
+        inset 0 0 1.4rem #900603;
+}
+
+@media (min-width:320px) and (max-width:414px){
+
+    #jungle-theme #solve:hover {
+        border: 0.1rem solid #fff;
+        border-radius: 1rem;
+        padding: 0.2em;
+        text-shadow:
+            0 0 4px #fff,
+            0 0 5px #fff,
+            0 0 10px #fff,
+            0 0 20px #900603,
+            0 0 40px #900603,
+            0 0 45px #900603,
+            0 0 50px #900603,
+            0 0 75px #900603;
+        box-shadow: 
+            0 0 .1rem #fff,
+            0 0 .1rem #fff,
+            0 0 1rem  #900603,
+            0 0 0.4rem #900603,
+            0 0 1.4rem #900603,
+            inset 0 0 0.7rem #900603;
+    }
+}
+
+#jungle-theme #hide {
+    color: #fff;
+    border: none;
+    background: none;
+    font-size: 30px;
+    border: 0.2rem solid #fff;
+    border-radius: 2rem;
+    padding: 0.4em;
+    text-shadow:
+        0 0 8px #fff,
+        0 0 10px #fff,
+        0 0 20px #fff,
+        0 0 40px #ff0000,
+        0 0 80px #ff0000,
+        0 0 90px #ff0000,
+        0 0 100px #ff0000,
+        0 0 150px #ff0000;
+    box-shadow: 
+        0 0 .2rem #fff,
+        0 0 .2rem #fff,
+        0 0 2rem  #ff0000,
+        0 0 0.8rem #ff0000,
+        0 0 2.8rem #ff0000,
+        inset 0 0 1.4rem #ff0000;
+}
+
+@media (min-width:320px) and (max-width:414px){
+
+    #jungle-theme #hide {
+        color: #fff;
+        border: none;
+        background: none;
+        font-size: 15px;
+        border: 0.1rem solid #fff;
+        border-radius: 1rem;
+        padding: 0.2em;
+        text-shadow:
+            0 0 4px #fff,
+            0 0 5px #fff,
+            0 0 10px #fff,
+            0 0 20px #ff0000,
+            0 0 40px #ff0000,
+            0 0 45px #ff0000,
+            0 0 50px #ff0000,
+            0 0 75px #ff0000;
+        box-shadow: 
+            0 0 .1rem #fff,
+            0 0 .1rem #fff,
+            0 0 1rem  #ff0000,
+            0 0 0.4rem #ff0000,
+            0 0 1.4rem #ff0000,
+            inset 0 0 0.7rem #ff0000,
+    }
+}
+
+#jungle-theme #hide:hover {
+    border: 0.2rem solid #fff;
+    border-radius: 2rem;
+    padding: 0.4em;
+    text-shadow:
+        0 0 8px #fff,
+        0 0 10px #fff,
+        0 0 20px #fff,
+        0 0 40px #900603,
+        0 0 80px #900603,
+        0 0 90px #900603,
+        0 0 100px #900603,
+        0 0 150px #900603;
+    box-shadow: 
+        0 0 .2rem #fff,
+        0 0 .2rem #fff,
+        0 0 2rem  #900603,
+        0 0 0.8rem #900603,
+        0 0 2.8rem #900603,
+        inset 0 0 1.4rem #900603;
+}
+
+@media (min-width:320px) and (max-width:414px){
+
+    #jungle-theme #hide:hover {
+        border: 0.1rem solid #fff;
+        border-radius: 1rem;
+        padding: 0.2em;
+        text-shadow:
+            0 0 4px #fff,
+            0 0 5px #fff,
+            0 0 10px #fff,
+            0 0 20px #900603,
+            0 0 40px #900603,
+            0 0 45px #900603,
+            0 0 50px #900603,
+            0 0 75px #900603;
+        box-shadow: 
+            0 0 .1rem #fff,
+            0 0 .1rem #fff,
+            0 0 1rem  #900603,
+            0 0 0.4rem #900603,
+            0 0 1.4rem #900603,
+            inset 0 0 0.7rem #900603;
+    }
+}
+
+/* ================================================================ Game Buttons Mars Attacks Theme =================================================================*/
+
+#mars-attacks-theme #shuffle {
+    color: #fff;
+    border: none;
+    background: none;
+    font-size: 30px;
+    border: 0.2rem solid #fff;
+    border-radius: 2rem;
+    padding: 0.4em;
+    text-shadow:
+        0 0 8px #fff,
+        0 0 10px #fff,
+        0 0 20px #fff,
+        0 0 40px #ff0000,
+        0 0 80px #ff0000,
+        0 0 90px #ff0000,
+        0 0 100px #ff0000,
+        0 0 150px #ff0000;
+    box-shadow: 
+        0 0 .2rem #fff,
+        0 0 .2rem #fff,
+        0 0 2rem  #ff0000,
+        0 0 0.8rem #ff0000,
+        0 0 2.8rem #ff0000,
+        inset 0 0 1.4rem #ff0000;
+}
+
+@media (min-width:320px) and (max-width:414px){
+
+    #mars-attacks-theme #shuffle {
+        color: #fff;
+        border: none;
+        background: none;
+        font-size: 15px;
+        border: 0.1rem solid #fff;
+        border-radius: 1rem;
+        padding: 0.2em;
+        text-shadow:
+            0 0 4px #fff,
+            0 0 5px #fff,
+            0 0 10px #fff,
+            0 0 20px #ff0000,
+            0 0 40px #ff0000,
+            0 0 45px #ff0000,
+            0 0 50px #ff0000,
+            0 0 75px #ff0000;
+        box-shadow: 
+            0 0 .1rem #fff,
+            0 0 .1rem #fff,
+            0 0 1rem  #ff0000,
+            0 0 0.4rem #ff0000,
+            0 0 1.4rem #ff0000,
+            inset 0 0 0.7rem #ff0000;
+    }
+}
+
+#mars-attacks-theme #shuffle:hover {
+    border: 0.2rem solid #fff;
+    border-radius: 2rem;
+    padding: 0.4em;
+    text-shadow:
+        0 0 8px #fff,
+        0 0 10px #fff,
+        0 0 20px #fff,
+        0 0 40px #900603,
+        0 0 80px #900603,
+        0 0 90px #900603,
+        0 0 100px #900603,
+        0 0 150px #900603;
+    box-shadow: 
+        0 0 .2rem #fff,
+        0 0 .2rem #fff,
+        0 0 2rem  #900603,
+        0 0 0.8rem #900603,
+        0 0 2.8rem #900603,
+        inset 0 0 1.4rem #900603;
+}
+
+@media (min-width:320px) and (max-width:414px){
+
+    #mars-attacks-theme #shuffle:hover {
+        border: 0.1rem solid #fff;
+        border-radius: 1rem;
+        padding: 0.2em;
+        text-shadow:
+            0 0 4px #fff,
+            0 0 5px #fff,
+            0 0 10px #fff,
+            0 0 20px #900603,
+            0 0 40px #900603,
+            0 0 45px #900603,
+            0 0 50px #900603,
+            0 0 75px #900603;
+        box-shadow: 
+            0 0 .1rem #fff,
+            0 0 .1rem #fff,
+            0 0 1rem  #900603,
+            0 0 0.4rem #900603,
+            0 0 1.4rem #900603,
+            inset 0 0 0.7rem #900603;
+    }
+}
+
+#mars-attacks-theme #solve {
+    color: #fff;
+    border: none;
+    background: none;
+    font-size: 30px;
+    border: 0.2rem solid #fff;
+    border-radius: 2rem;
+    padding: 0.4em;
+    text-shadow:
+        0 0 8px #fff,
+        0 0 10px #fff,
+        0 0 20px #fff,
+        0 0 40px #ff0000,
+        0 0 80px #ff0000,
+        0 0 90px #ff0000,
+        0 0 100px #ff0000,
+        0 0 150px #ff0000;
+    box-shadow: 
+        0 0 .2rem #fff,
+        0 0 .2rem #fff,
+        0 0 2rem  #ff0000,
+        0 0 0.8rem #ff0000,
+        0 0 2.8rem #ff0000,
+        inset 0 0 1.4rem #ff0000;
+}
+
+@media (min-width:320px) and (max-width:414px){
+
+    #mars-attacks-theme #solve {
+        color: #fff;
+        border: none;
+        background: none;
+        font-size: 15px;
+        border: 0.1rem solid #fff;
+        border-radius: 1rem;
+        padding: 0.2em;
+        text-shadow:
+            0 0 4px #fff,
+            0 0 5px #fff,
+            0 0 10px #fff,
+            0 0 20px #ff0000,
+            0 0 40px #ff0000,
+            0 0 45px #ff0000,
+            0 0 50px #ff0000,
+            0 0 75px #ff0000;
+        box-shadow: 
+            0 0 .1rem #fff,
+            0 0 .1rem #fff,
+            0 0 1rem  #ff0000,
+            0 0 0.4rem #ff0000,
+            0 0 1.4rem #ff0000,
+            inset 0 0 0.7rem #ff0000;
+    }
+}
+
+#mars-attacks-theme #solve:hover {
+    border: 0.2rem solid #fff;
+    border-radius: 2rem;
+    padding: 0.4em;
+    text-shadow:
+        0 0 8px #fff,
+        0 0 10px #fff,
+        0 0 20px #fff,
+        0 0 40px #900603,
+        0 0 80px #900603,
+        0 0 90px #900603,
+        0 0 100px #900603,
+        0 0 150px #900603;
+    box-shadow: 
+        0 0 .2rem #fff,
+        0 0 .2rem #fff,
+        0 0 2rem  #900603,
+        0 0 0.8rem #900603,
+        0 0 2.8rem #900603,
+        inset 0 0 1.4rem #900603;
+}
+
+@media (min-width:320px) and (max-width:414px){
+
+    #mars-attacks-theme #solve:hover {
+        border: 0.1rem solid #fff;
+        border-radius: 1rem;
+        padding: 0.2em;
+        text-shadow:
+            0 0 4px #fff,
+            0 0 5px #fff,
+            0 0 10px #fff,
+            0 0 20px #900603,
+            0 0 40px #900603,
+            0 0 45px #900603,
+            0 0 50px #900603,
+            0 0 75px #900603;
+        box-shadow: 
+            0 0 .1rem #fff,
+            0 0 .1rem #fff,
+            0 0 1rem  #900603,
+            0 0 0.4rem #900603,
+            0 0 1.4rem #900603,
+            inset 0 0 0.7rem #900603;
+    }
+}
+
+#mars-attacks-theme #hide {
+    color: #fff;
+    border: none;
+    background: none;
+    font-size: 30px;
+    border: 0.2rem solid #fff;
+    border-radius: 2rem;
+    padding: 0.4em;
+    text-shadow:
+        0 0 8px #fff,
+        0 0 10px #fff,
+        0 0 20px #fff,
+        0 0 40px #ff0000,
+        0 0 80px #ff0000,
+        0 0 90px #ff0000,
+        0 0 100px #ff0000,
+        0 0 150px #ff0000;
+    box-shadow: 
+        0 0 .2rem #fff,
+        0 0 .2rem #fff,
+        0 0 2rem  #ff0000,
+        0 0 0.8rem #ff0000,
+        0 0 2.8rem #ff0000,
+        inset 0 0 1.4rem #ff0000;
+}
+
+@media (min-width:320px) and (max-width:414px){
+
+    #mars-attacks-theme #hide {
+        color: #fff;
+        border: none;
+        background: none;
+        font-size: 15px;
+        border: 0.1rem solid #fff;
+        border-radius: 1rem;
+        padding: 0.2em;
+        text-shadow:
+            0 0 4px #fff,
+            0 0 5px #fff,
+            0 0 10px #fff,
+            0 0 20px #ff0000,
+            0 0 40px #ff0000,
+            0 0 45px #ff0000,
+            0 0 50px #ff0000,
+            0 0 75px #ff0000;
+        box-shadow: 
+            0 0 .1rem #fff,
+            0 0 .1rem #fff,
+            0 0 1rem  #ff0000,
+            0 0 0.4rem #ff0000,
+            0 0 1.4rem #ff0000,
+            inset 0 0 0.7rem #ff0000,
+    }
+}
+
+#mars-attacks-theme #hide:hover {
+    border: 0.2rem solid #fff;
+    border-radius: 2rem;
+    padding: 0.4em;
+    text-shadow:
+        0 0 8px #fff,
+        0 0 10px #fff,
+        0 0 20px #fff,
+        0 0 40px #900603,
+        0 0 80px #900603,
+        0 0 90px #900603,
+        0 0 100px #900603,
+        0 0 150px #900603;
+    box-shadow: 
+        0 0 .2rem #fff,
+        0 0 .2rem #fff,
+        0 0 2rem  #900603,
+        0 0 0.8rem #900603,
+        0 0 2.8rem #900603,
+        inset 0 0 1.4rem #900603;
+}
+
+@media (min-width:320px) and (max-width:414px){
+
+    #mars-attacks-theme #hide:hover {
+        border: 0.1rem solid #fff;
+        border-radius: 1rem;
+        padding: 0.2em;
+        text-shadow:
+            0 0 4px #fff,
+            0 0 5px #fff,
+            0 0 10px #fff,
+            0 0 20px #900603,
+            0 0 40px #900603,
+            0 0 45px #900603,
+            0 0 50px #900603,
+            0 0 75px #900603;
+        box-shadow: 
+            0 0 .1rem #fff,
+            0 0 .1rem #fff,
+            0 0 1rem  #900603,
+            0 0 0.4rem #900603,
+            0 0 1.4rem #900603,
+            inset 0 0 0.7rem #900603;
+    }
+}
+
 /* ================================================================ Game Board =================================================================*/
 
 .neon-start-title {
@@ -638,3 +1275,6 @@ h2 {
         padding-top: 25px;
     }
 }
+
+/* ================================================================= Themes ================================================================= */
+
