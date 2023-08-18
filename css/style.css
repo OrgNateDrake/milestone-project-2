@@ -43,16 +43,16 @@ header, .btn {
     color: #0fa;
 }
 
-/* ================================================================= Main Title ================================================================= */
+/* ================================================================= Main Title City-Lights ================================================================= */
 
-.neon-home-title {
-    animation: flicker 1.5s infinite alternate;
+#city-nights-title {
+    animation: flicker1 1.5s infinite alternate;
     color: #fff;
     margin-top: 75px;
     margin-bottom: 75px;
 }
   
-h1 {
+#city-nights-title h1 {
     font-size: 4.2rem;
     min-width: fit-content;
     border: 0.2rem solid #fff;
@@ -61,15 +61,15 @@ h1 {
     box-shadow: 
             0 0 .2rem #fff,
             0 0 .2rem #fff,
-            0 0 2rem  #0fa,
-            0 0 0.8rem #0fa,
-            0 0 2.8rem #0fa,
-            inset 0 0 1.3rem #0fa;
+            0 0 2rem  #0839f9,
+            0 0 0.8rem #0839f9,
+            0 0 2.8rem #0839f9,
+            inset 0 0 1.3rem #0839f9;
 }
 
 @media (min-width:320px) and (max-width:414px){
     
-    H1 {
+    #city-nights-title H1 {
         font-size: 3rem;
         min-width: fit-content;
         border: 0.2rem solid #fff;
@@ -78,27 +78,27 @@ h1 {
         box-shadow: 
                 0 0 1.5rem #fff,
                 0 0 1.5rem #fff,
-                0 0 1.5rem  #0fa,
-                0 0 0.6rem #0fa,
-                0 0 3.1rem #0fa,
-                inset 0 0 1rem #0fa;
+                0 0 1.5rem  #0839f9,
+                0 0 0.6rem #0839f9,
+                0 0 3.1rem #0839f9,
+                inset 0 0 1rem #0839f9;
         }
 }
   
 /* Flickering animation for H1 and Socials in Footer */
 
-@keyframes flicker {
+@keyframes flicker1 {
       
     0%, 18%, 22%, 25%, 53%, 57%, 100% {
         text-shadow:
         0 0 4px #fff,
         0 0 11px #fff,
         0 0 19px #fff,
-        0 0 40px #0fa,
-        0 0 80px #0fa,
-        0 0 90px #0fa,
-        0 0 100px #0fa,
-        0 0 150px #0fa;
+        0 0 40px #0839f9,
+        0 0 80px #0839f9,
+        0 0 90px #0839f9,
+        0 0 100px #0839f9,
+        0 0 150px #0839f9;
     }
     
     20%, 24%, 55% {
@@ -110,7 +110,151 @@ h1 {
 
 @media screen and (prefers-reduced-motion) { 
     
-    h1 {
+    #city-nights-title h1 {
+        animation: none;
+    }
+}
+
+/* ================================================================= Main Title Jungle ================================================================= */
+
+#jungle-title {
+    animation: flicker2 1.5s infinite alternate;
+    color: #fff;
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+  
+#jungle-title h1 {
+    font-size: 4.2rem;
+    min-width: fit-content;
+    border: 0.2rem solid #fff;
+    border-radius: 2rem;
+    padding: 0.4em;
+    box-shadow: 
+            0 0 .2rem #fff,
+            0 0 .2rem #fff,
+            0 0 2rem  #ff1493,
+            0 0 0.8rem #ff1493,
+            0 0 2.8rem #ff1493,
+            inset 0 0 1.3rem #ff1493;
+}
+
+@media (min-width:320px) and (max-width:414px){
+    
+    #jungle-title H1 {
+        font-size: 3rem;
+        min-width: fit-content;
+        border: 0.2rem solid #fff;
+        border-radius: 1.5rem;
+        padding: 0.3em;
+        box-shadow: 
+                0 0 1.5rem #fff,
+                0 0 1.5rem #fff,
+                0 0 1.5rem  #ff1493,
+                0 0 0.6rem #ff1493,
+                0 0 3.1rem #ff1493,
+                inset 0 0 1rem #ff1493;
+        }
+}
+  
+/* Flickering animation for H1 and Socials in Footer */
+
+@keyframes flicker2 {
+      
+    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+        text-shadow:
+        0 0 4px #fff,
+        0 0 11px #fff,
+        0 0 19px #fff,
+        0 0 40px #ff1493,
+        0 0 80px #ff1493,
+        0 0 90px #ff1493,
+        0 0 100px #ff1493,
+        0 0 150px #ff1493;
+    }
+    
+    20%, 24%, 55% {
+        text-shadow: none;
+    }
+}
+
+/* Flickering animation OFF for accessibility */
+
+@media screen and (prefers-reduced-motion) { 
+    
+    #jungle-title h1 {
+        animation: none;
+    }
+}
+
+/* ================================================================= Main Title Mars-Attacks ================================================================= */
+
+#mars-attacks-title {
+    animation: flicker3 1.5s infinite alternate;
+    color: #fff;
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+  
+#mars-attacks-title h1 {
+    font-size: 4.2rem;
+    min-width: fit-content;
+    border: 0.2rem solid #fff;
+    border-radius: 2rem;
+    padding: 0.4em;
+    box-shadow: 
+            0 0 .2rem #fff,
+            0 0 .2rem #fff,
+            0 0 2rem  #e35a17,
+            0 0 0.8rem #e35a17,
+            0 0 2.8rem #e35a17,
+            inset 0 0 1.3rem #e35a17;
+}
+
+@media (min-width:320px) and (max-width:414px){
+    
+    #mars-attacks-title H1 {
+        font-size: 3rem;
+        min-width: fit-content;
+        border: 0.2rem solid #fff;
+        border-radius: 1.5rem;
+        padding: 0.3em;
+        box-shadow: 
+                0 0 1.5rem #fff,
+                0 0 1.5rem #fff,
+                0 0 1.5rem  #e35a17,
+                0 0 0.6rem #e35a17,
+                0 0 3.1rem #e35a17,
+                inset 0 0 1rem #e35a17;
+        }
+}
+  
+/* Flickering animation for H1 and Socials in Footer */
+
+@keyframes flicker3 {
+      
+    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+        text-shadow:
+        0 0 4px #fff,
+        0 0 11px #fff,
+        0 0 19px #fff,
+        0 0 40px #e35a17,
+        0 0 80px #e35a17,
+        0 0 90px #e35a17,
+        0 0 100px #e35a17,
+        0 0 150px #e35a17;
+    }
+    
+    20%, 24%, 55% {
+        text-shadow: none;
+    }
+}
+
+/* Flickering animation OFF for accessibility */
+
+@media screen and (prefers-reduced-motion) { 
+    
+    #mars-attacks-title h1 {
         animation: none;
     }
 }
@@ -145,10 +289,9 @@ body {
         background-size: cover;
         background-color: #fff;
     }
-
 }
 
-/* ================================================================ Game Buttons City Theme =================================================================*/
+/* ================================================================ Game Buttons City-Nights Theme =================================================================*/
 
 #shuffle {
     color: #fff;
@@ -765,7 +908,7 @@ body {
     }
 }
 
-/* ================================================================ Game Buttons Mars Attacks Theme =================================================================*/
+/* ================================================================ Game Buttons Mars-Attacks Theme =================================================================*/
 
 #mars-attacks-theme #shuffle {
     color: #fff;
