@@ -2,15 +2,15 @@
 
 /* ================================================================ City Nights Colors ================================================================= */
 
-/* = (#0fa - Neon Green), (#bc13fe - Electric Pink), (#9900ff - Plasma Purple), (#ae8625/#f7ef8a - Gold FX) and (#fff - White) = */
+/* = (#0fa - Neon Green), (#0839f9 - Electric Blue), (#0e134b - Plasma Purple), (#ae8625/#f7ef8a - Gold FX) and (#fff - White) = */
 
 /* ================================================================ Jungle Colors ================================================================= */
 
-/* = (#0fa - Neon Green), (#ff0000 - Neon Red), (#900603 - Ruby Red), (#ae8625/#f7ef8a - Gold FX) and (#fff - White) = */
+/* = (#0fa - Neon Green), (#ff1493 - Neon Pink), (#914db3 - Fluorite Purple), (#ae8625/#f7ef8a - Gold FX) and (#fff - White) = */
 
 /* ================================================================ Mars Attacks Colors ================================================================= */
 
-/* = (#0fa - Neon Green), (#1b7ced - Electric Blue), (#1357a6 - Plasma Blue), (#ae8625/#f7ef8a - Gold FX) and (#fff - White) = */
+/* = (#0fa - Neon Green), (#e35a17 - Sparking Orange), (#1d4c76 - Plasma Blue), (#ae8625/#f7ef8a - Gold FX) and (#fff - White) = */
 
 /* ================================================================= Navigation ================================================================= */
 
@@ -121,21 +121,31 @@ body {
 }
 
 #city-nights-theme {
-    background-image: url('../assets/images/city-night-img.jpg');
+    background-image: url('../assets/images/city-nights.jpg');
     background-size: cover;
     background-color: #fff;
 }
 
 #jungle-theme {
-    background-image: url('../assets/images/jungle-background.jpg');
+    background-image: url('../assets/images/mystic-jungle.jpg');
     background-size: cover;
     background-color: #fff;
 }
 
 #mars-attacks-theme {
-    background-image: url('../assets/images/mars-attacks-img.jpeg');
+    background-image: url('../assets/images/mars-background.jpg');
     background-size: cover;
     background-color: #fff;
+}
+
+@media (min-width:320px) and (max-width:414px){
+
+    #mars-attacks-theme {
+        background-image: url('../assets/images/mars-background-mob.jpg');
+        background-size: cover;
+        background-color: #fff;
+    }
+
 }
 
 /* ================================================================ Game Buttons City Theme =================================================================*/
@@ -152,18 +162,18 @@ body {
         0 0 8px #fff,
         0 0 10px #fff,
         0 0 20px #fff,
-        0 0 40px #bc13fe,
-        0 0 80px #bc13fe,
-        0 0 90px #bc13fe,
-        0 0 100px #bc13fe,
-        0 0 150px #bc13fe;
+        0 0 40px #0839f9,
+        0 0 80px #0839f9,
+        0 0 90px #0839f9,
+        0 0 100px #0839f9,
+        0 0 150px #0839f9;
     box-shadow: 
         0 0 .2rem #fff,
         0 0 .2rem #fff,
-        0 0 2rem  #bc13fe,
-        0 0 0.8rem #bc13fe,
-        0 0 2.8rem #bc13fe,
-        inset 0 0 1.4rem #bc13fe;
+        0 0 2rem  #0839f9,
+        0 0 0.8rem #0839f9,
+        0 0 2.8rem #0839f9,
+        inset 0 0 1.4rem #0839f9;
 }
 
 @media (min-width:320px) and (max-width:414px){
@@ -180,18 +190,18 @@ body {
             0 0 4px #fff,
             0 0 5px #fff,
             0 0 10px #fff,
-            0 0 20px #bc13fe,
-            0 0 40px #bc13fe,
-            0 0 45px #bc13fe,
-            0 0 50px #bc13fe,
-            0 0 75px #bc13fe;
+            0 0 20px #0839f9,
+            0 0 40px #0839f9,
+            0 0 45px #0839f9,
+            0 0 50px #0839f9,
+            0 0 75px #0839f9;
         box-shadow: 
             0 0 .1rem #fff,
             0 0 .1rem #fff,
-            0 0 1rem  #bc13fe,
-            0 0 0.4rem #bc13fe,
-            0 0 1.4rem #bc13fe,
-            inset 0 0 0.7rem #bc13fe;
+            0 0 1rem  #0839f9,
+            0 0 0.4rem #0839f9,
+            0 0 1.4rem #0839f9,
+            inset 0 0 0.7rem #0839f9;
     }
 }
 
@@ -203,18 +213,18 @@ body {
         0 0 8px #fff,
         0 0 10px #fff,
         0 0 20px #fff,
-        0 0 40px #9900ff,
-        0 0 80px #9900ff,
-        0 0 90px #9900ff,
-        0 0 100px #9900ff,
-        0 0 150px #9900ff;
+        0 0 40px #0e134b,
+        0 0 80px #0e134b,
+        0 0 90px #0e134b,
+        0 0 100px #0e134b,
+        0 0 150px #0e134b;
     box-shadow: 
         0 0 .2rem #fff,
         0 0 .2rem #fff,
-        0 0 2rem  #9900ff,
-        0 0 0.8rem #9900ff,
-        0 0 2.8rem #9900ff,
-        inset 0 0 1.4rem #9900ff;
+        0 0 2rem  #0e134b,
+        0 0 0.8rem #0e134b,
+        0 0 2.8rem #0e134b,
+        inset 0 0 1.4rem #0e134b;
 }
 
 @media (min-width:320px) and (max-width:414px){
@@ -227,18 +237,18 @@ body {
             0 0 4px #fff,
             0 0 5px #fff,
             0 0 10px #fff,
-            0 0 20px #9900ff,
-            0 0 40px #9900ff,
-            0 0 45px #9900ff,
-            0 0 50px #9900ff,
-            0 0 75px #9900ff;
+            0 0 20px #0e134b,
+            0 0 40px #0e134b,
+            0 0 45px #0e134b,
+            0 0 50px #0e134b,
+            0 0 75px #0e134b;
         box-shadow: 
             0 0 .1rem #fff,
             0 0 .1rem #fff,
-            0 0 1rem  #9900ff,
-            0 0 0.4rem #9900ff,
-            0 0 1.4rem #9900ff,
-            inset 0 0 0.7rem #9900ff;
+            0 0 1rem  #0e134b,
+            0 0 0.4rem #0e134b,
+            0 0 1.4rem #0e134b,
+            inset 0 0 0.7rem #0e134b;
     }
 
 }
@@ -255,18 +265,18 @@ body {
         0 0 8px #fff,
         0 0 10px #fff,
         0 0 20px #fff,
-        0 0 40px #bc13fe,
-        0 0 80px #bc13fe,
-        0 0 90px #bc13fe,
-        0 0 100px #bc13fe,
-        0 0 150px #bc13fe;
+        0 0 40px #0839f9,
+        0 0 80px #0839f9,
+        0 0 90px #0839f9,
+        0 0 100px #0839f9,
+        0 0 150px #0839f9;
     box-shadow: 
         0 0 .2rem #fff,
         0 0 .2rem #fff,
-        0 0 2rem  #bc13fe,
-        0 0 0.8rem #bc13fe,
-        0 0 2.8rem #bc13fe,
-        inset 0 0 1.4rem #bc13fe;
+        0 0 2rem  #0839f9,
+        0 0 0.8rem #0839f9,
+        0 0 2.8rem #0839f9,
+        inset 0 0 1.4rem #0839f9;
 }
 
 @media (min-width:320px) and (max-width:414px){
@@ -283,18 +293,18 @@ body {
             0 0 4px #fff,
             0 0 5px #fff,
             0 0 10px #fff,
-            0 0 20px #bc13fe,
-            0 0 40px #bc13fe,
-            0 0 45px #bc13fe,
-            0 0 50px #bc13fe,
-            0 0 75px #bc13fe;
+            0 0 20px #0839f9,
+            0 0 40px #0839f9,
+            0 0 45px #0839f9,
+            0 0 50px #0839f9,
+            0 0 75px #0839f9;
         box-shadow: 
             0 0 .1rem #fff,
             0 0 .1rem #fff,
-            0 0 1rem  #bc13fe,
-            0 0 0.4rem #bc13fe,
-            0 0 1.4rem #bc13fe,
-            inset 0 0 0.7rem #bc13fe;
+            0 0 1rem  #0839f9,
+            0 0 0.4rem #0839f9,
+            0 0 1.4rem #0839f9,
+            inset 0 0 0.7rem #0839f9;
     }
 }
 
@@ -306,18 +316,18 @@ body {
         0 0 8px #fff,
         0 0 10px #fff,
         0 0 20px #fff,
-        0 0 40px #9900ff,
-        0 0 80px #9900ff,
-        0 0 90px #9900ff,
-        0 0 100px #9900ff,
-        0 0 150px #9900ff;
+        0 0 40px #0e134b,
+        0 0 80px #0e134b,
+        0 0 90px #0e134b,
+        0 0 100px #0e134b,
+        0 0 150px #0e134b;
     box-shadow: 
         0 0 .2rem #fff,
         0 0 .2rem #fff,
-        0 0 2rem  #9900ff,
-        0 0 0.8rem #9900ff,
-        0 0 2.8rem #9900ff,
-        inset 0 0 1.4rem #9900ff;
+        0 0 2rem  #0e134b,
+        0 0 0.8rem #0e134b,
+        0 0 2.8rem #0e134b,
+        inset 0 0 1.4rem #0e134b;
 }
 
 @media (min-width:320px) and (max-width:414px){
@@ -330,18 +340,18 @@ body {
             0 0 4px #fff,
             0 0 5px #fff,
             0 0 10px #fff,
-            0 0 20px #9900ff,
-            0 0 40px #9900ff,
-            0 0 45px #9900ff,
-            0 0 50px #9900ff,
-            0 0 75px #9900ff;
+            0 0 20px #0e134b,
+            0 0 40px #0e134b,
+            0 0 45px #0e134b,
+            0 0 50px #0e134b,
+            0 0 75px #0e134b;
         box-shadow: 
             0 0 .1rem #fff,
             0 0 .1rem #fff,
-            0 0 1rem  #9900ff,
-            0 0 0.4rem #9900ff,
-            0 0 1.4rem #9900ff,
-            inset 0 0 0.7rem #9900ff;
+            0 0 1rem  #0e134b,
+            0 0 0.4rem #0e134b,
+            0 0 1.4rem #0e134b,
+            inset 0 0 0.7rem #0e134b;
     }
 }
 
@@ -357,18 +367,18 @@ body {
         0 0 8px #fff,
         0 0 10px #fff,
         0 0 20px #fff,
-        0 0 40px #bc13fe,
-        0 0 80px #bc13fe,
-        0 0 90px #bc13fe,
-        0 0 100px #bc13fe,
-        0 0 150px #bc13fe;
+        0 0 40px #0839f9,
+        0 0 80px #0839f9,
+        0 0 90px #0839f9,
+        0 0 100px #0839f9,
+        0 0 150px #0839f9;
     box-shadow: 
         0 0 .2rem #fff,
         0 0 .2rem #fff,
-        0 0 2rem  #bc13fe,
-        0 0 0.8rem #bc13fe,
-        0 0 2.8rem #bc13fe,
-        inset 0 0 1.4rem #bc13fe;
+        0 0 2rem  #0839f9,
+        0 0 0.8rem #0839f9,
+        0 0 2.8rem #0839f9,
+        inset 0 0 1.4rem #0839f9;
 }
 
 @media (min-width:320px) and (max-width:414px){
@@ -385,18 +395,18 @@ body {
             0 0 4px #fff,
             0 0 5px #fff,
             0 0 10px #fff,
-            0 0 20px #bc13fe,
-            0 0 40px #bc13fe,
-            0 0 45px #bc13fe,
-            0 0 50px #bc13fe,
-            0 0 75px #bc13fe;
+            0 0 20px #0839f9,
+            0 0 40px #0839f9,
+            0 0 45px #0839f9,
+            0 0 50px #0839f9,
+            0 0 75px #0839f9;
         box-shadow: 
             0 0 .1rem #fff,
             0 0 .1rem #fff,
-            0 0 1rem  #bc13fe,
-            0 0 0.4rem #bc13fe,
-            0 0 1.4rem #bc13fe,
-            inset 0 0 0.7rem #bc13fe;
+            0 0 1rem  #0839f9,
+            0 0 0.4rem #0839f9,
+            0 0 1.4rem #0839f9,
+            inset 0 0 0.7rem #0839f9;
     }
 }
 
@@ -408,18 +418,18 @@ body {
         0 0 8px #fff,
         0 0 10px #fff,
         0 0 20px #fff,
-        0 0 40px #9900ff,
-        0 0 80px #9900ff,
-        0 0 90px #9900ff,
-        0 0 100px #9900ff,
-        0 0 150px #9900ff;
+        0 0 40px #0e134b,
+        0 0 80px #0e134b,
+        0 0 90px #0e134b,
+        0 0 100px #0e134b,
+        0 0 150px #0e134b;
     box-shadow: 
         0 0 .2rem #fff,
         0 0 .2rem #fff,
-        0 0 2rem  #9900ff,
-        0 0 0.8rem #9900ff,
-        0 0 2.8rem #9900ff,
-        inset 0 0 1.4rem #9900ff;
+        0 0 2rem  #0e134b,
+        0 0 0.8rem #0e134b,
+        0 0 2.8rem #0e134b,
+        inset 0 0 1.4rem #0e134b;
 }
 
 @media (min-width:320px) and (max-width:414px){
@@ -432,18 +442,18 @@ body {
             0 0 4px #fff,
             0 0 5px #fff,
             0 0 10px #fff,
-            0 0 20px #9900ff,
-            0 0 40px #9900ff,
-            0 0 45px #9900ff,
-            0 0 50px #9900ff,
-            0 0 75px #9900ff;
+            0 0 20px #0e134b,
+            0 0 40px #0e134b,
+            0 0 45px #0e134b,
+            0 0 50px #0e134b,
+            0 0 75px #0e134b;
         box-shadow: 
             0 0 .1rem #fff,
             0 0 .1rem #fff,
-            0 0 1rem  #9900ff,
-            0 0 0.4rem #9900ff,
-            0 0 1.4rem #9900ff,
-            inset 0 0 0.7rem #9900ff;
+            0 0 1rem  #0e134b,
+            0 0 0.4rem #0e134b,
+            0 0 1.4rem #0e134b,
+            inset 0 0 0.7rem #0e134b;
     }
 }
 
@@ -461,18 +471,18 @@ body {
         0 0 8px #fff,
         0 0 10px #fff,
         0 0 20px #fff,
-        0 0 40px #ff0000,
-        0 0 80px #ff0000,
-        0 0 90px #ff0000,
-        0 0 100px #ff0000,
-        0 0 150px #ff0000;
+        0 0 40px #ff1493,
+        0 0 80px #ff1493,
+        0 0 90px #ff1493,
+        0 0 100px #ff1493,
+        0 0 150px #ff1493;
     box-shadow: 
         0 0 .2rem #fff,
         0 0 .2rem #fff,
-        0 0 2rem  #ff0000,
-        0 0 0.8rem #ff0000,
-        0 0 2.8rem #ff0000,
-        inset 0 0 1.4rem #ff0000;
+        0 0 2rem  #ff1493,
+        0 0 0.8rem #ff1493,
+        0 0 2.8rem #ff1493,
+        inset 0 0 1.4rem #ff1493;
 }
 
 @media (min-width:320px) and (max-width:414px){
@@ -489,18 +499,18 @@ body {
             0 0 4px #fff,
             0 0 5px #fff,
             0 0 10px #fff,
-            0 0 20px #ff0000,
-            0 0 40px #ff0000,
-            0 0 45px #ff0000,
-            0 0 50px #ff0000,
-            0 0 75px #ff0000;
+            0 0 20px #ff1493,
+            0 0 40px #ff1493,
+            0 0 45px #ff1493,
+            0 0 50px #ff1493,
+            0 0 75px #ff1493;
         box-shadow: 
             0 0 .1rem #fff,
             0 0 .1rem #fff,
-            0 0 1rem  #ff0000,
-            0 0 0.4rem #ff0000,
-            0 0 1.4rem #ff0000,
-            inset 0 0 0.7rem #ff0000;
+            0 0 1rem  #ff1493,
+            0 0 0.4rem #ff1493,
+            0 0 1.4rem #ff1493,
+            inset 0 0 0.7rem #ff1493;
     }
 }
 
@@ -512,18 +522,18 @@ body {
         0 0 8px #fff,
         0 0 10px #fff,
         0 0 20px #fff,
-        0 0 40px #900603,
-        0 0 80px #900603,
-        0 0 90px #900603,
-        0 0 100px #900603,
-        0 0 150px #900603;
+        0 0 40px #914db3,
+        0 0 80px #914db3,
+        0 0 90px #914db3,
+        0 0 100px #914db3,
+        0 0 150px #914db3;
     box-shadow: 
         0 0 .2rem #fff,
         0 0 .2rem #fff,
-        0 0 2rem  #900603,
-        0 0 0.8rem #900603,
-        0 0 2.8rem #900603,
-        inset 0 0 1.4rem #900603;
+        0 0 2rem  #914db3,
+        0 0 0.8rem #914db3,
+        0 0 2.8rem #914db3,
+        inset 0 0 1.4rem #914db3;
 }
 
 @media (min-width:320px) and (max-width:414px){
@@ -536,18 +546,18 @@ body {
             0 0 4px #fff,
             0 0 5px #fff,
             0 0 10px #fff,
-            0 0 20px #900603,
-            0 0 40px #900603,
-            0 0 45px #900603,
-            0 0 50px #900603,
-            0 0 75px #900603;
+            0 0 20px #914db3,
+            0 0 40px #914db3,
+            0 0 45px #914db3,
+            0 0 50px #914db3,
+            0 0 75px #914db3;
         box-shadow: 
             0 0 .1rem #fff,
             0 0 .1rem #fff,
-            0 0 1rem  #900603,
-            0 0 0.4rem #900603,
-            0 0 1.4rem #900603,
-            inset 0 0 0.7rem #900603;
+            0 0 1rem  #914db3,
+            0 0 0.4rem #914db3,
+            0 0 1.4rem #914db3,
+            inset 0 0 0.7rem #914db3;
     }
 }
 
@@ -563,18 +573,18 @@ body {
         0 0 8px #fff,
         0 0 10px #fff,
         0 0 20px #fff,
-        0 0 40px #ff0000,
-        0 0 80px #ff0000,
-        0 0 90px #ff0000,
-        0 0 100px #ff0000,
-        0 0 150px #ff0000;
+        0 0 40px #ff1493,
+        0 0 80px #ff1493,
+        0 0 90px #ff1493,
+        0 0 100px #ff1493,
+        0 0 150px #ff1493;
     box-shadow: 
         0 0 .2rem #fff,
         0 0 .2rem #fff,
-        0 0 2rem  #ff0000,
-        0 0 0.8rem #ff0000,
-        0 0 2.8rem #ff0000,
-        inset 0 0 1.4rem #ff0000;
+        0 0 2rem  #ff1493,
+        0 0 0.8rem #ff1493,
+        0 0 2.8rem #ff1493,
+        inset 0 0 1.4rem #ff1493;
 }
 
 @media (min-width:320px) and (max-width:414px){
@@ -591,18 +601,18 @@ body {
             0 0 4px #fff,
             0 0 5px #fff,
             0 0 10px #fff,
-            0 0 20px #ff0000,
-            0 0 40px #ff0000,
-            0 0 45px #ff0000,
-            0 0 50px #ff0000,
-            0 0 75px #ff0000;
+            0 0 20px #ff1493,
+            0 0 40px #ff1493,
+            0 0 45px #ff1493,
+            0 0 50px #ff1493,
+            0 0 75px #ff1493;
         box-shadow: 
             0 0 .1rem #fff,
             0 0 .1rem #fff,
-            0 0 1rem  #ff0000,
-            0 0 0.4rem #ff0000,
-            0 0 1.4rem #ff0000,
-            inset 0 0 0.7rem #ff0000;
+            0 0 1rem  #ff1493,
+            0 0 0.4rem #ff1493,
+            0 0 1.4rem #ff1493,
+            inset 0 0 0.7rem #ff1493;
     }
 }
 
@@ -614,18 +624,18 @@ body {
         0 0 8px #fff,
         0 0 10px #fff,
         0 0 20px #fff,
-        0 0 40px #900603,
-        0 0 80px #900603,
-        0 0 90px #900603,
-        0 0 100px #900603,
-        0 0 150px #900603;
+        0 0 40px #914db3,
+        0 0 80px #914db3,
+        0 0 90px #914db3,
+        0 0 100px #914db3,
+        0 0 150px #914db3;
     box-shadow: 
         0 0 .2rem #fff,
         0 0 .2rem #fff,
-        0 0 2rem  #900603,
-        0 0 0.8rem #900603,
-        0 0 2.8rem #900603,
-        inset 0 0 1.4rem #900603;
+        0 0 2rem  #914db3,
+        0 0 0.8rem #914db3,
+        0 0 2.8rem #914db3,
+        inset 0 0 1.4rem #914db3;
 }
 
 @media (min-width:320px) and (max-width:414px){
@@ -638,18 +648,18 @@ body {
             0 0 4px #fff,
             0 0 5px #fff,
             0 0 10px #fff,
-            0 0 20px #900603,
-            0 0 40px #900603,
-            0 0 45px #900603,
-            0 0 50px #900603,
-            0 0 75px #900603;
+            0 0 20px #914db3,
+            0 0 40px #914db3,
+            0 0 45px #914db3,
+            0 0 50px #914db3,
+            0 0 75px #914db3;
         box-shadow: 
             0 0 .1rem #fff,
             0 0 .1rem #fff,
-            0 0 1rem  #900603,
-            0 0 0.4rem #900603,
-            0 0 1.4rem #900603,
-            inset 0 0 0.7rem #900603;
+            0 0 1rem  #914db3,
+            0 0 0.4rem #914db3,
+            0 0 1.4rem #914db3,
+            inset 0 0 0.7rem #914db3;
     }
 }
 
@@ -665,18 +675,18 @@ body {
         0 0 8px #fff,
         0 0 10px #fff,
         0 0 20px #fff,
-        0 0 40px #ff0000,
-        0 0 80px #ff0000,
-        0 0 90px #ff0000,
-        0 0 100px #ff0000,
-        0 0 150px #ff0000;
+        0 0 40px #ff1493,
+        0 0 80px #ff1493,
+        0 0 90px #ff1493,
+        0 0 100px #ff1493,
+        0 0 150px #ff1493;
     box-shadow: 
         0 0 .2rem #fff,
         0 0 .2rem #fff,
-        0 0 2rem  #ff0000,
-        0 0 0.8rem #ff0000,
-        0 0 2.8rem #ff0000,
-        inset 0 0 1.4rem #ff0000;
+        0 0 2rem  #ff1493,
+        0 0 0.8rem #ff1493,
+        0 0 2.8rem #ff1493,
+        inset 0 0 1.4rem #ff1493;
 }
 
 @media (min-width:320px) and (max-width:414px){
@@ -693,18 +703,18 @@ body {
             0 0 4px #fff,
             0 0 5px #fff,
             0 0 10px #fff,
-            0 0 20px #ff0000,
-            0 0 40px #ff0000,
-            0 0 45px #ff0000,
-            0 0 50px #ff0000,
-            0 0 75px #ff0000;
+            0 0 20px #ff1493,
+            0 0 40px #ff1493,
+            0 0 45px #ff1493,
+            0 0 50px #ff1493,
+            0 0 75px #ff1493;
         box-shadow: 
             0 0 .1rem #fff,
             0 0 .1rem #fff,
-            0 0 1rem  #ff0000,
-            0 0 0.4rem #ff0000,
-            0 0 1.4rem #ff0000,
-            inset 0 0 0.7rem #ff0000,
+            0 0 1rem  #ff1493,
+            0 0 0.4rem #ff1493,
+            0 0 1.4rem #ff1493,
+            inset 0 0 0.7rem #ff1493,
     }
 }
 
@@ -716,18 +726,18 @@ body {
         0 0 8px #fff,
         0 0 10px #fff,
         0 0 20px #fff,
-        0 0 40px #900603,
-        0 0 80px #900603,
-        0 0 90px #900603,
-        0 0 100px #900603,
-        0 0 150px #900603;
+        0 0 40px #914db3,
+        0 0 80px #914db3,
+        0 0 90px #914db3,
+        0 0 100px #914db3,
+        0 0 150px #914db3;
     box-shadow: 
         0 0 .2rem #fff,
         0 0 .2rem #fff,
-        0 0 2rem  #900603,
-        0 0 0.8rem #900603,
-        0 0 2.8rem #900603,
-        inset 0 0 1.4rem #900603;
+        0 0 2rem  #914db3,
+        0 0 0.8rem #914db3,
+        0 0 2.8rem #914db3,
+        inset 0 0 1.4rem #914db3;
 }
 
 @media (min-width:320px) and (max-width:414px){
@@ -740,18 +750,18 @@ body {
             0 0 4px #fff,
             0 0 5px #fff,
             0 0 10px #fff,
-            0 0 20px #900603,
-            0 0 40px #900603,
-            0 0 45px #900603,
-            0 0 50px #900603,
-            0 0 75px #900603;
+            0 0 20px #914db3,
+            0 0 40px #914db3,
+            0 0 45px #914db3,
+            0 0 50px #914db3,
+            0 0 75px #914db3;
         box-shadow: 
             0 0 .1rem #fff,
             0 0 .1rem #fff,
-            0 0 1rem  #900603,
-            0 0 0.4rem #900603,
-            0 0 1.4rem #900603,
-            inset 0 0 0.7rem #900603;
+            0 0 1rem  #914db3,
+            0 0 0.4rem #914db3,
+            0 0 1.4rem #914db3,
+            inset 0 0 0.7rem #914db3;
     }
 }
 
@@ -769,18 +779,18 @@ body {
         0 0 8px #fff,
         0 0 10px #fff,
         0 0 20px #fff,
-        0 0 40px #1b7ced,
-        0 0 80px #1b7ced,
-        0 0 90px #1b7ced,
-        0 0 100px #1b7ced,
-        0 0 150px #1b7ced;
+        0 0 40px #e35a17,
+        0 0 80px #e35a17,
+        0 0 90px #e35a17,
+        0 0 100px #e35a17,
+        0 0 150px #e35a17;
     box-shadow: 
         0 0 .2rem #fff,
         0 0 .2rem #fff,
-        0 0 2rem  #1b7ced,
-        0 0 0.8rem #1b7ced,
-        0 0 2.8rem #1b7ced,
-        inset 0 0 1.4rem #1b7ced;
+        0 0 2rem  #e35a17,
+        0 0 0.8rem #e35a17,
+        0 0 2.8rem #e35a17,
+        inset 0 0 1.4rem #e35a17;
 }
 
 @media (min-width:320px) and (max-width:414px){
@@ -797,18 +807,18 @@ body {
             0 0 4px #fff,
             0 0 5px #fff,
             0 0 10px #fff,
-            0 0 20px #1b7ced,
-            0 0 40px #1b7ced,
-            0 0 45px #1b7ced,
-            0 0 50px #1b7ced,
-            0 0 75px #1b7ced;
+            0 0 20px #e35a17,
+            0 0 40px #e35a17,
+            0 0 45px #e35a17,
+            0 0 50px #e35a17,
+            0 0 75px #e35a17;
         box-shadow: 
             0 0 .1rem #fff,
             0 0 .1rem #fff,
-            0 0 1rem  #1b7ced,
-            0 0 0.4rem #1b7ced,
-            0 0 1.4rem #1b7ced,
-            inset 0 0 0.7rem #1b7ced;
+            0 0 1rem  #e35a17,
+            0 0 0.4rem #e35a17,
+            0 0 1.4rem #e35a17,
+            inset 0 0 0.7rem #e35a17;
     }
 }
 
@@ -820,18 +830,18 @@ body {
         0 0 8px #fff,
         0 0 10px #fff,
         0 0 20px #fff,
-        0 0 40px #1357a6,
-        0 0 80px #1357a6,
-        0 0 90px #1357a6,
-        0 0 100px #1357a6,
-        0 0 150px #1357a6;
+        0 0 40px #1d4c76,
+        0 0 80px #1d4c76,
+        0 0 90px #1d4c76,
+        0 0 100px #1d4c76,
+        0 0 150px #1d4c76;
     box-shadow: 
         0 0 .2rem #fff,
         0 0 .2rem #fff,
-        0 0 2rem  #1357a6,
-        0 0 0.8rem #1357a6,
-        0 0 2.8rem #1357a6,
-        inset 0 0 1.4rem #1357a6;
+        0 0 2rem  #1d4c76,
+        0 0 0.8rem #1d4c76,
+        0 0 2.8rem #1d4c76,
+        inset 0 0 1.4rem #1d4c76;
 }
 
 @media (min-width:320px) and (max-width:414px){
@@ -844,18 +854,18 @@ body {
             0 0 4px #fff,
             0 0 5px #fff,
             0 0 10px #fff,
-            0 0 20px #1357a6,
-            0 0 40px #1357a6,
-            0 0 45px #1357a6,
-            0 0 50px #1357a6,
-            0 0 75px #1357a6;
+            0 0 20px #1d4c76,
+            0 0 40px #1d4c76,
+            0 0 45px #1d4c76,
+            0 0 50px #1d4c76,
+            0 0 75px #1d4c76;
         box-shadow: 
             0 0 .1rem #fff,
             0 0 .1rem #fff,
-            0 0 1rem  #1357a6,
-            0 0 0.4rem #1357a6,
-            0 0 1.4rem #1357a6,
-            inset 0 0 0.7rem #1357a6;
+            0 0 1rem  #1d4c76,
+            0 0 0.4rem #1d4c76,
+            0 0 1.4rem #1d4c76,
+            inset 0 0 0.7rem #1d4c76;
     }
 }
 
@@ -871,18 +881,18 @@ body {
         0 0 8px #fff,
         0 0 10px #fff,
         0 0 20px #fff,
-        0 0 40px #1b7ced,
-        0 0 80px #1b7ced,
-        0 0 90px #1b7ced,
-        0 0 100px #1b7ced,
-        0 0 150px #1b7ced;
+        0 0 40px #e35a17,
+        0 0 80px #e35a17,
+        0 0 90px #e35a17,
+        0 0 100px #e35a17,
+        0 0 150px #e35a17;
     box-shadow: 
         0 0 .2rem #fff,
         0 0 .2rem #fff,
-        0 0 2rem  #1b7ced,
-        0 0 0.8rem #1b7ced,
-        0 0 2.8rem #1b7ced,
-        inset 0 0 1.4rem #1b7ced;
+        0 0 2rem  #e35a17,
+        0 0 0.8rem #e35a17,
+        0 0 2.8rem #e35a17,
+        inset 0 0 1.4rem #e35a17;
 }
 
 @media (min-width:320px) and (max-width:414px){
@@ -899,18 +909,18 @@ body {
             0 0 4px #fff,
             0 0 5px #fff,
             0 0 10px #fff,
-            0 0 20px #1b7ced,
-            0 0 40px #1b7ced,
-            0 0 45px #1b7ced,
-            0 0 50px #1b7ced,
-            0 0 75px #1b7ced;
+            0 0 20px #e35a17,
+            0 0 40px #e35a17,
+            0 0 45px #e35a17,
+            0 0 50px #e35a17,
+            0 0 75px #e35a17;
         box-shadow: 
             0 0 .1rem #fff,
             0 0 .1rem #fff,
-            0 0 1rem  #1b7ced,
-            0 0 0.4rem #1b7ced,
-            0 0 1.4rem #1b7ced,
-            inset 0 0 0.7rem #1b7ced;
+            0 0 1rem  #e35a17,
+            0 0 0.4rem #e35a17,
+            0 0 1.4rem #e35a17,
+            inset 0 0 0.7rem #e35a17;
     }
 }
 
@@ -922,18 +932,18 @@ body {
         0 0 8px #fff,
         0 0 10px #fff,
         0 0 20px #fff,
-        0 0 40px #1357a6,
-        0 0 80px #1357a6,
-        0 0 90px #1357a6,
-        0 0 100px #1357a6,
-        0 0 150px #1357a6;
+        0 0 40px #1d4c76,
+        0 0 80px #1d4c76,
+        0 0 90px #1d4c76,
+        0 0 100px #1d4c76,
+        0 0 150px #1d4c76;
     box-shadow: 
         0 0 .2rem #fff,
         0 0 .2rem #fff,
-        0 0 2rem  #1357a6,
-        0 0 0.8rem #1357a6,
-        0 0 2.8rem #1357a6,
-        inset 0 0 1.4rem #1357a6;
+        0 0 2rem  #1d4c76,
+        0 0 0.8rem #1d4c76,
+        0 0 2.8rem #1d4c76,
+        inset 0 0 1.4rem #1d4c76;
 }
 
 @media (min-width:320px) and (max-width:414px){
@@ -946,18 +956,18 @@ body {
             0 0 4px #fff,
             0 0 5px #fff,
             0 0 10px #fff,
-            0 0 20px #1357a6,
-            0 0 40px #1357a6,
-            0 0 45px #1357a6,
-            0 0 50px #1357a6,
-            0 0 75px #1357a6;
+            0 0 20px #1d4c76,
+            0 0 40px #1d4c76,
+            0 0 45px #1d4c76,
+            0 0 50px #1d4c76,
+            0 0 75px #1d4c76;
         box-shadow: 
             0 0 .1rem #fff,
             0 0 .1rem #fff,
-            0 0 1rem  #1357a6,
-            0 0 0.4rem #1357a6,
-            0 0 1.4rem #1357a6,
-            inset 0 0 0.7rem #1357a6;
+            0 0 1rem  #1d4c76,
+            0 0 0.4rem #1d4c76,
+            0 0 1.4rem #1d4c76,
+            inset 0 0 0.7rem #1d4c76;
     }
 }
 
@@ -973,18 +983,18 @@ body {
         0 0 8px #fff,
         0 0 10px #fff,
         0 0 20px #fff,
-        0 0 40px #1b7ced,
-        0 0 80px #1b7ced,
-        0 0 90px #1b7ced,
-        0 0 100px #1b7ced,
-        0 0 150px #1b7ced;
+        0 0 40px #e35a17,
+        0 0 80px #e35a17,
+        0 0 90px #e35a17,
+        0 0 100px #e35a17,
+        0 0 150px #e35a17;
     box-shadow: 
         0 0 .2rem #fff,
         0 0 .2rem #fff,
-        0 0 2rem  #1b7ced,
-        0 0 0.8rem #1b7ced,
-        0 0 2.8rem #1b7ced,
-        inset 0 0 1.4rem #1b7ced;
+        0 0 2rem  #e35a17,
+        0 0 0.8rem #e35a17,
+        0 0 2.8rem #e35a17,
+        inset 0 0 1.4rem #e35a17;
 }
 
 @media (min-width:320px) and (max-width:414px){
@@ -1001,18 +1011,18 @@ body {
             0 0 4px #fff,
             0 0 5px #fff,
             0 0 10px #fff,
-            0 0 20px #1b7ced,
-            0 0 40px #1b7ced,
-            0 0 45px #1b7ced,
-            0 0 50px #1b7ced,
-            0 0 75px #1b7ced;
+            0 0 20px #e35a17,
+            0 0 40px #e35a17,
+            0 0 45px #e35a17,
+            0 0 50px #e35a17,
+            0 0 75px #e35a17;
         box-shadow: 
             0 0 .1rem #fff,
             0 0 .1rem #fff,
-            0 0 1rem #1b7ced,
-            0 0 0.4rem #1b7ced,
-            0 0 1.4rem #1b7ced,
-            inset 0 0 0.7rem #1b7ced,
+            0 0 1rem #e35a17,
+            0 0 0.4rem #e35a17,
+            0 0 1.4rem #e35a17,
+            inset 0 0 0.7rem #e35a17;
     }
 }
 
@@ -1065,8 +1075,8 @@ body {
 
 /* ================================================================ Game Board =================================================================*/
 
-.neon-start-title {
-    animation: pulsate 1.5s infinite alternate;
+#city-nights-neon-start {
+    animation: pulsate1 1.5s infinite alternate;
     color: #fff;
     margin-top: 80px;
     margin-bottom: 60px;
@@ -1074,23 +1084,23 @@ body {
 
 @media (min-width:320px) and (max-width:414px){
 
-.neon-start-title {
+    #city-nights-neon-start {
     
-        animation: pulsate 1.5s infinite alternate;
+        animation: pulsate1 1.5s infinite alternate;
         color: #fff;
         margin-top: 40px;
         margin-bottom: 30px;
     }
 }
 
-h2 {
+#city-nights-neon-start h2 {
     font-size: 2.0rem;
     white-space: nowrap;
 }
 
 @media (min-width:320px) and (max-width:414px){
 
-    h2 {
+    #city-nights-neon-start h2 {
         font-size: 1.0rem;
         white-space: nowrap;
     }
@@ -1098,19 +1108,136 @@ h2 {
 
 /* Pulsating animation */
 
-@keyframes pulsate {
+@keyframes pulsate1 {
     100% {
   
         text-shadow:
         0 0 4px #fff,
         0 0 8px #fff,
         0 0 10px #fff,
-        0 0 40px #bc13fe,
-        0 0 80px #bc13fe,
-        0 0 90px #bc13fe,
-        0 0 100px #bc13fe,
-        0 0 150px #bc13fe;
+        0 0 40px #0839f9,
+        0 0 80px #0839f9,
+        0 0 90px #0839f9,
+        0 0 100px #0839f9,
+        0 0 150px #0839f9;
+    }
+}
+
+/* Pulsating animation OFF for accessibility */
+
+@media screen and (prefers-reduced-motion) { 
     
+    h2 {
+        animation: none;
+    }
+}
+
+/* ================================================================ Game Board - Jungle =================================================================*/
+
+#jungle-neon-start {
+    animation: pulsate2 1.5s infinite alternate;
+    color: #fff;
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+
+@media (min-width:320px) and (max-width:414px){
+
+    #jungle-neon-start {
+    
+        animation: pulsate2 1.5s infinite alternate;
+        color: #fff;
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+}
+
+#jungle-neon-start h2 {
+    font-size: 2.0rem;
+    white-space: nowrap;
+}
+
+@media (min-width:320px) and (max-width:414px){
+
+    #jungle-neon-start h2 {
+        font-size: 1.0rem;
+        white-space: nowrap;
+    }
+}
+
+/* Pulsating animation */
+
+@keyframes pulsate2 {
+    100% {
+  
+        text-shadow:
+        0 0 4px #fff,
+        0 0 8px #fff,
+        0 0 10px #fff,
+        0 0 40px #ff1493,
+        0 0 80px #ff1493,
+        0 0 90px #ff1493,
+        0 0 100px #ff1493,
+        0 0 150px #ff1493;
+    }
+}
+
+/* Pulsating animation OFF for accessibility */
+
+@media screen and (prefers-reduced-motion) { 
+    
+    h2 {
+        animation: none;
+    }
+}
+
+/* ================================================================ Game Board - Mars Attacks =================================================================*/
+
+#mars-neon-start {
+    animation: pulsate3 1.5s infinite alternate;
+    color: #fff;
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+
+@media (min-width:320px) and (max-width:414px){
+
+    #mars-neon-start {
+    
+        animation: pulsate3 1.5s infinite alternate;
+        color: #fff;
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+}
+
+#mars-neon-start h2 {
+    font-size: 2.0rem;
+    white-space: nowrap;
+}
+
+@media (min-width:320px) and (max-width:414px){
+
+    #mars-neon-start h2 {
+        font-size: 1.0rem;
+        white-space: nowrap;
+    }
+}
+
+/* Pulsating animation */
+
+@keyframes pulsate3 {
+    100% {
+  
+        text-shadow:
+        0 0 4px #fff,
+        0 0 8px #fff,
+        0 0 10px #fff,
+        0 0 40px #e35a17,
+        0 0 80px #e35a17,
+        0 0 90px #e35a17,
+        0 0 100px #e35a17,
+        0 0 150px #e35a17;
     }
 }
 
