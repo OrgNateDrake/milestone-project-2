@@ -393,7 +393,6 @@ body {
             0 0 1.4rem #0e134b,
             inset 0 0 0.7rem #0e134b;
     }
-
 }
 
 #solve {
@@ -1398,7 +1397,9 @@ body {
     padding-right: 25%;
 }
 
-#game-board .row div {
+/* ================================================================ Game Board Rows City-Nights ================================================================= */
+
+#game-board-city-lights .row div {
 	display: inline-block;
 	height: 100px;
 	width: 100px;
@@ -1409,15 +1410,15 @@ body {
     box-shadow: 
         0 0 .2rem #fff,
         0 0 .2rem #fff,
-        0 0 2rem #0fa,
-        0 0 0.8rem #0fa,
-        0 0 2.8rem #0fa,
-        inset 0 0 1.3rem #0fa;
+        0 0 2rem #0839f9,
+        0 0 0.8rem #0839f9,
+        0 0 2.8rem #0839f9,
+        inset 0 0 1.3rem #0839f9;
 }
 
 @media (min-width:320px) and (max-width:414px){
 
-    #game-board .row div {
+    #game-board-city-lights .row div {
         display: inline-block;
         height: 40px;
         width: 40px;
@@ -1428,10 +1429,88 @@ body {
         box-shadow: 
             0 0 .1rem #fff,
             0 0 .1rem #fff,
-            0 0 1rem #0fa,
-            0 0 0.4rem #0fa,
-            0 0 1.4rem #0fa,
-            inset 0 0 0.5rem #0fa;
+            0 0 1rem #0839f9,
+            0 0 0.4rem #0839f9,
+            0 0 1.4rem #0839f9,
+            inset 0 0 0.5rem #0839f9;
+    }
+}
+
+/* ================================================================ Game Board Rows Jungle ================================================================= */
+
+#game-board-jungle .row div {
+	display: inline-block;
+	height: 100px;
+	width: 100px;
+	background-color: #000;
+	border: 0.2rem solid #fff;
+    border-radius: 2rem;
+    padding: 0.4em;
+    box-shadow: 
+        0 0 .2rem #fff,
+        0 0 .2rem #fff,
+        0 0 2rem #ff1493,
+        0 0 0.8rem #ff1493,
+        0 0 2.8rem #ff1493,
+        inset 0 0 1.3rem #ff1493;
+}
+
+@media (min-width:320px) and (max-width:414px){
+
+    #game-board-jungle .row div {
+        display: inline-block;
+        height: 40px;
+        width: 40px;
+        background-color: #000;
+        border: 0.1rem solid #fff;
+        border-radius: 1rem;
+        padding: 0.2em;
+        box-shadow: 
+            0 0 .1rem #fff,
+            0 0 .1rem #fff,
+            0 0 1rem #ff1493,
+            0 0 0.4rem #ff1493,
+            0 0 1.4rem #ff1493,
+            inset 0 0 0.5rem #ff1493;
+    }
+}
+
+/* ================================================================ Game Board Rows Mars Attacks ================================================================= */
+
+#game-board-mars-attacks .row div {
+	display: inline-block;
+	height: 100px;
+	width: 100px;
+	background-color: #000;
+	border: 0.2rem solid #fff;
+    border-radius: 2rem;
+    padding: 0.4em;
+    box-shadow: 
+        0 0 .2rem #fff,
+        0 0 .2rem #fff,
+        0 0 2rem #e35a17,
+        0 0 0.8rem #e35a17,
+        0 0 2.8rem #e35a17,
+        inset 0 0 1.3rem #e35a17;
+}
+
+@media (min-width:320px) and (max-width:414px){
+
+    #game-board-mars-attacks .row div {
+        display: inline-block;
+        height: 40px;
+        width: 40px;
+        background-color: #000;
+        border: 0.1rem solid #fff;
+        border-radius: 1rem;
+        padding: 0.2em;
+        box-shadow: 
+            0 0 .1rem #fff,
+            0 0 .1rem #fff,
+            0 0 1rem #e35a17,
+            0 0 0.4rem #e35a17,
+            0 0 1.4rem #e35a17,
+            inset 0 0 0.5rem #e35a17;
     }
 }
 
@@ -1534,10 +1613,38 @@ body {
 }
 
 .social-links li a i {
-    animation: flicker 1.5s infinite alternate;
+    animation: flicker4 1.5s infinite alternate;
     font-size: 2rem;
     color: #fff;
     padding-top: 50px;
+}
+
+@keyframes flicker4 {
+      
+    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+        text-shadow:
+        0 0 4px #fff,
+        0 0 11px #fff,
+        0 0 19px #fff,
+        0 0 40px #fff,
+        0 0 80px #fff,
+        0 0 90px #fff,
+        0 0 100px #fff,
+        0 0 150px #fff;
+    }
+    
+    20%, 24%, 55% {
+        text-shadow: none;
+    }
+}
+
+/* Flickering animation OFF for accessibility */
+
+@media screen and (prefers-reduced-motion) { 
+    
+    .social-links li a i {
+        animation: none;
+    }
 }
 
 @media (min-width:320px) and (max-width:414px){
