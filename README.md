@@ -61,7 +61,6 @@ To get a copy of this project up and running on your local machine, follow these
 
 2. Open the project in your preferred text editor or IDE.
 ## User Experience UX
-
 ### User Stories
 
 **Title:** Lights Out - Mobile Puzzle Game
@@ -166,3 +165,69 @@ To get a copy of this project up and running on your local machine, follow these
   **And** if I confirm, the game should play as I require, and without errors.
 
 These user stories and corresponding test cases cover the basic functionality and interactions of the "Lights Out" browser game. Additional user stories could be developed for optional features like leaderboards, achievements and in-app purchases, based on the game's design and goals.
+### Design Choices
+#### Design Choices for the Light Out Browser Game
+
+In developing the JavaScript Light Out game, several design choices were made to ensure a smooth and engaging user experience while also maintaining efficient and organized code. This section outlines the key design choices that were implemented throughout the development process.
+
+**1. HTML Structure and Layout:**
+
+The game's layout and structure were designed with simplicity and responsiveness in mind. I chose to use a grid layout to represent the game board, with each cell corresponding to a light. This grid layout adapts well to various screen sizes, ensuring a consistent experience across different devices.
+
+**2. CSS Styling:**
+
+A retro neon theme, with three visually pleasing designs was chosen to maintain focus on the gameplay, while giving the user a fun experience. The cell colors change to provide visual feedback when clicked. CSS animations were applied to create the neon effects and transitions between different game states.
+
+**3. JavaScript Interaction:**
+
+The core game logic was implemented using JavaScript. I utilised event delegation to efficiently handle cell clicks and their associated logic. When a cell is clicked, its class is toggled, representing whether the light is on or off. This approach minimizes the number of event listeners attached to individual cells.
+
+**4. Game Logic:**
+
+The game's logic revolves around determining when the player has successfully turned off all the lights. I used a simple data structure, such as a 2D array, to represent the initial state of the board and the effect of each cell's click on adjacent cells. 
+
+**5. Win Condition:**
+
+A win condition is checked after each cell click. The game scans the board to see if all lights have been turned off. If so, a congratulations message is displayed.
+
+**6. Shuffle Button:**
+
+To provide replayability, a shuffle button was included to allow players to start a new game. Additionally, this button was implemented to re-shuffle the initial state of the board, adding the randomness to each game.
+
+**7. Accessibility:**
+
+Efforts were made to ensure the game is accessible to all users. Proper semantic HTML elements were used, and appropriate ARIA roles were added where necessary. Keyboard navigation and focus styles were also implemented to enhance the user experience for those who rely on assistive technologies.
+
+**Conclusion**
+
+These design choices were carefully made to create an enjoyable and functional Light Out game. By prioritising responsive design, engaging visuals, efficient event handling, and accessible features, I aim to provide users with an immersive and entertaining gameplay experience on which ever device they choose to play on.
+### Hex Colors and Fonts
+
+**City Nights Colors**
+
+`#0fa` - Neon Green
+`#0839f9` - Electric Blue
+`#0e134b` - Plasma Purple
+`#ae8625` and `#f7ef8a` - Gold FX
+`#fff` - White
+
+**Jungle Colors**
+
+`#0fa` - Neon Green
+`#ff1493` - Neon Pink
+`#914db3` - Fluorite Purple
+`#ae8625` and `#f7ef8a` - Gold FX
+`#fff` - White
+
+**Mars Attacks Colors**
+
+`#0fa` - Neon Green
+`#e35a17` - Sparking Orange
+`#1d4c76` - Plasma Blue
+`#ae8625` and `#f7ef8a` - Gold FX
+`#fff` - White
+
+**Font**
+
+**Google Font:** Tektur
+## Wireframes
