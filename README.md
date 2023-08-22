@@ -4,7 +4,7 @@
 
 This is the README file for a three-page website, for a Lights Out game. The website consists of three main pages**themes**: City Lights theme, Mars Attacks theme, and Jungle theme
 
-![I Am Responsive](docs/iamresponsive.png)
+![I Am Responsive](#)
 
 [Am I Responsive](https://ui.dev/amiresponsive?url=https://orgnatedrake.github.io/milestone-project-2/)
 ## Table of Contents
@@ -205,29 +205,35 @@ These design choices were carefully made to create an enjoyable and functional L
 
 **City Nights Colors**
 
-`#0fa` - Neon Green
-`#0839f9` - Electric Blue
-`#0e134b` - Plasma Purple
-`#ae8625` and `#f7ef8a` - Gold FX
-`#fff` - White
+`#0fa` - Neon Green 
+`#0839f9` - Electric Blue 
+`#0e134b` - Plasma Purple 
+`#ae8625` and `#f7ef8a` - Gold FX 
+`#fff` - White 
 
 **Jungle Colors**
 
-`#0fa` - Neon Green
-`#ff1493` - Neon Pink
-`#914db3` - Fluorite Purple
-`#ae8625` and `#f7ef8a` - Gold FX
-`#fff` - White
+`#0fa` - Neon Green 
+`#ff1493` - Neon Pink 
+`#914db3` - Fluorite Purple 
+`#ae8625` and `#f7ef8a` - Gold FX 
+`#fff` - White 
 
 **Mars Attacks Colors**
 
-`#0fa` - Neon Green
-`#e35a17` - Sparking Orange
-`#1d4c76` - Plasma Blue
-`#ae8625` and `#f7ef8a` - Gold FX
-`#fff` - White
+`#0fa` - Neon Green 
+`#e35a17` - Sparking Orange 
+`#1d4c76` - Plasma Blue 
+`#ae8625` and `#f7ef8a` - Gold FX 
+`#fff` - White 
 
 **Font**
 
-**Google Font:** Tektur
+**Google Font:** `Tektur`
 ## Wireframes
+### Desktop/Tablet Browser Game
+
+![Desktop/Tablet Browser Game](wireframes/desktop-wireframe.png)
+### Mobile Browser Game
+
+![Mobile Browser Game](wireframes/wireframe-homepage-mobile.jpeg)
