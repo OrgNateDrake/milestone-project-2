@@ -4,7 +4,7 @@
 
 This is the README file for a three-page website, for a Lights Out game. The website consists of three main pages**themes**: City Lights theme, Mars Attacks theme, and Jungle theme
 
-![I Am Responsive](#)
+![I Am Responsive](/assets/docs/responsive-demo.jpeg)
 
 [Am I Responsive](https://ui.dev/amiresponsive?url=https://orgnatedrake.github.io/milestone-project-2/)
 ## Table of Contents
