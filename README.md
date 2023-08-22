@@ -22,13 +22,8 @@ This is the README file for a three-page website, for a Lights Out game. The web
   - [Design Choices](#design-choices)
   - [HEX Colors and Fonts](#hex-colors-and-fonts)
 - [Wireframes](#wireframes)
-  - [Large Screen Homepage](#large-screen-homepage)
-  - [Large Screen Gallery](#large-screen-gallery)
-  - [Large Screen Contact Me](#large-screen-contact-me)
-  - [Mobile Homepage](#mobile-homepage)
-  - [Mobile Gallery](#mobile-gallery)
-  - [Mobile Contact Me](#mobile-contact-me)
-  - [Modal](#modal)
+  - [Desktop/Tablet Browser Game](#desktop/tablet-browser-game)
+  - [Mobile Browser Game](#mobile-browser-game)
 - [Attribution](#attribution)
 - [Contributing and Maintenance](#contributing-and-maintenance)
 ## Introduction
@@ -233,7 +228,64 @@ These design choices were carefully made to create an enjoyable and functional L
 ## Wireframes
 ### Desktop/Tablet Browser Game
 
-![Desktop/Tablet Browser Game](wireframes/desktop-wireframe.png)
+![Desktop/Tablet Browser Game](/assets/wireframes/desktop-wireframe.png)
 ### Mobile Browser Game
 
-![Mobile Browser Game](wireframes/wireframe-homepage-mobile.jpeg)
+![Mobile Browser Game](/assets/wireframes/mobile-wireframe.png)
+## Attribution
+
+Apart from what has been attributed below. All code within this project was programmed by *Nathan Drake* and utilises skills learnt from tutorials by *The Code Institute*, within their *Full Stack Web Development* course.
+
+**Bootstrap's** basic framework was utilised and then tailored to the requirements set-out for this project, within the following areas:
+
+1. Navbar.
+2. Modal.
+3. Buttons.
+4. Grids and responsive behaviours.
+
+[BootStrap](https://getbootstrap.com)
+
+**Font Awesome** was used to provide three arrow icons above the *Press Shuffle to Start!* on the main game board pages. Also below the *How to Play* within the rules modal.
+
+[Font Awesome](https://fontawesome.com)
+
+**Google Fonts** was the main font used within this project - *Tektur*
+
+[Google Fonts](https://fonts.google.com)
+
+**CSS Tricks** was used to assist with the styling of the neon effects throughout this browser game.
+
+[CSS Tricks](https://css-tricks.com/how-to-create-neon-text-with-css/)
+
+**MDN Web Docs** was used to assist with the the JS code needed for the browser game to operate properly.
+
+[MDN Web Docs](https://developer.mozilla.org/en-US/docs/Games/Introduction)
+
+**ShutterStock** was utilised for all licensed background images used on this game.
+
+[ShutterStock](https://www.shutterstock.com)
+
+**Alchetron** was used to source the *Rules* image.
+
+[Alchetron](https://alchetron.com/cdn/lights-out-game)
+
+**Git** was used for version control.
+
+[GitHub](https://github.com)
+
+**GitHub** was used to publish this browser game through *Pages*. 
+
+[GitHub](https://github.com)
+
+**VSC** Visual Studio Code software was used to develop the website `Integrated Development Environment *IDE*`.
+
+[VS Code](https://code.visualstudio.com)
+
+**Lucid** was used to create the wireframes.
+
+[LucidChart](https://www.lucidchart.com)
+## Contributing and Maintenance
+
+I welcome contributions from anyone interested in improving this project. Feel free to open issues and submit pull requests to suggest changes, report bugs, or add new features.
+
+Maintenance will be completed regularly, to update code and external links where necessary.
