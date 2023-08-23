@@ -57,20 +57,20 @@ Within W3C's validators. I have fully tested the one **CSS** stylesheet via the 
 
 [CSS Validator](https://jigsaw.w3.org/css-validator/)
 
-![W3C HTML Validation](docs/w3c-html-validation-img.png)
+![W3C HTML Validation](/assets/docs/lights-out-html-pass.jpeg)
 
 [HTML Validator](https://validator.w3.org)
 ### Accessibility and Performance
 
 ![I Am Responsive](docs/iamresponsive.png)
 
-![PageSpeed Insight](docs/test-pagespeed.png)
+![PageSpeed Insight](#)
 
 [PageSpeed](https://pagespeed.web.dev)
 
 I have also tested this site with **Wave** for accessibility and performance. Major contrast issues were corrected and the 8 remaining contrast issues were thought not to be of concern.
 
-![Wave Contrast issues](docs/wave-contrast-img1.png)
-![Wave Contrast issues](docs/wave-contrast-img2.png)
+![Wave Contrast issues](#)
+![Wave Contrast issues](#)
 
 [Wave](https://wave.webaim.org)
