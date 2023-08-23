@@ -856,7 +856,7 @@ body {
             0 0 1rem  #ff1493,
             0 0 0.4rem #ff1493,
             0 0 1.4rem #ff1493,
-            inset 0 0 0.7rem #ff1493,
+            inset 0 0 0.7rem #ff1493;
     }
 }
 
@@ -1668,7 +1668,6 @@ body {
     font-family: "Tektur", sans-serif;
     font-weight: 400;
     color: #fff;
-    background-color: none;
 }
 
 #footer-copyright {
@@ -1727,6 +1726,3 @@ body {
         padding-top: 25px;
     }
 }
-
-/* ================================================================= Themes ================================================================= */
-

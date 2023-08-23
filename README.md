@@ -2,7 +2,7 @@
 
 [GitHub](https://orgnatedrake.github.io/milestone-project-2/)
 
-This is the README file for a three-page website, for a Lights Out game. The website consists of three main pages**themes**: City Lights theme, Mars Attacks theme, and Jungle theme
+This is the README file for a three-page website, with a Lights Out browser game within. **Themes: City Lights, Mars Attacks, and Jungle.**
 
 ![I Am Responsive](/assets/docs/responsive-demo.jpeg)
 
@@ -15,7 +15,6 @@ This is the README file for a three-page website, for a Lights Out game. The web
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
-  - [Usage](#usage)
   - [Deployment](#deployment)
 - [User Experience UX](#user-experience-ux)
   - [User Stories](#user-stories)
@@ -55,6 +54,20 @@ To get a copy of this project up and running on your local machine, follow these
 [Git Clone](https://github.com/OrgNateDrake/milestone-project-2)
 
 2. Open the project in your preferred text editor or IDE.
+### Deployment
+
+You can view the live site through **GitHub Pages**, using the following link; 
+
+[Live Site](https://orgnatedrake.github.io/milestone-project-2)
+
+The project was deployed to GitHub Pages using the following steps...
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+4. Under "Source", click the dropdown called "None" and select "Master Branch".
+5. The page will automatically refresh.
+6. Scroll back down through the page to locate the now published [site link](https://github.com) in the "GitHub Pages" section.
 ## User Experience UX
 ### User Stories
 
