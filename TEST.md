@@ -62,7 +62,7 @@ Within W3C's validators. I have fully tested the one **CSS** stylesheet via the 
 [HTML Validator](https://validator.w3.org)
 ### Accessibility and Performance
 
-![I Am Responsive](docs/iamresponsive.png)
+![I Am Responsive](/assets/docs/responsive-demo.jpeg)
 
 ![PageSpeed Insight](#)
 
