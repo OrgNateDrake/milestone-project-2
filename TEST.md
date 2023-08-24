@@ -64,9 +64,19 @@ Within W3C's validators. I have fully tested the one **CSS** stylesheet via the 
 
 ![I Am Responsive](/assets/docs/responsive-demo.jpeg)
 
-![PageSpeed Insight](#)
+**PageSpeed Insight**
+
+![PageSpeed Insight](/assets/docs/pagespeed-insight.jpeg)
 
 [PageSpeed](https://pagespeed.web.dev)
+
+After testing my website and the Lights Out browser game within, I have found that performance was slower than expected.
+
+The slower-than-expected performance during website loading can be attributed to the resource-intensive nature of the JavaScript code responsible for running the browser game. As the game utilises complex logic and graphics, it requires a substantial amount of processing power and memory allocation, thereby affecting the overall loading speed of the website.
+
+*More information about this issue is detailed within the **Bugs** section below*
+
+**Wave**
 
 I have also tested this site with **Wave** for accessibility and performance. Major contrast issues were corrected and the 8 remaining contrast issues were thought not to be of concern.
 
@@ -74,3 +84,18 @@ I have also tested this site with **Wave** for accessibility and performance. Ma
 ![Wave Contrast issues](#)
 
 [Wave](https://wave.webaim.org)
+
+## Bugs
+
+**Overall Performance**
+
+One effective strategy to address the slower than expected performance challenge, and which will be implemented in future updates, is code splitting.
+
+Code splitting involves breaking down the JavaScript codebase into smaller, more manageable chunks. By doing so, I can prioritise the loading of essential components required for the initial page render, while deferring the loading of non-essential components, such as the browser game code, until they are actually needed. This approach optimises the initial loading speed of the website, providing users with a faster and smoother experience upon arrival.
+
+Incorporating code splitting not only enhances the website's performance but also improves user engagement by reducing the perceived load time. Through this proactive measure, I aim to strike a balance between offering feature-rich content like the browser game and ensuring an optimal user experience, particularly for visitors accessing the website on various devices and network conditions.
+## Contributing and Maintenance
+
+I welcome contributions from anyone interested in improving this project. Feel free to open issues and submit pull requests to suggest changes, report bugs, or add new features.
+
+Maintenance will be completed regularly, to update code and external links where necessary.
