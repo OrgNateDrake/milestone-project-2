@@ -274,7 +274,7 @@ Apart from what has been attributed below. All code within this project was prog
 
 [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Games/Introduction)
 
-**ShutterStock** was utilised for all licensed background images used on this game.
+**ShutterStock** was utilised for all licensed background images and the favicon used on this game.
 
 [ShutterStock](https://www.shutterstock.com)
 

@@ -81,9 +81,16 @@ The slower-than-expected performance during website loading can be attributed to
 I have also tested this site with **Wave** for accessibility and performance. Major contrast issues were corrected and the 5 remaining contrast issues were thought not to be of concern.
 
 ![Wave Test Results](/assets/docs/wave-test.jpeg)
-![Wave Contrast issues](#)
 
 [Wave](https://wave.webaim.org)
+
+**JSLint**
+
+I have passed all Java Script code through **JSLint** and only 2 warnings were reported, with no fundamental errors reported. The warnings are not of concern, as the code correctly runs without issue.
+
+![JSLint Test Results](/assets/docs/jslint-check.jpeg)
+
+[JSLint](https://www.jslint.com)
 ## Bugs
 
 **Overall Performance**
