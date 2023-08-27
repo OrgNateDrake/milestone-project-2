@@ -1,9 +1,9 @@
 (function() {
   "use strict";
 
-    var zero = 0;
-    var one = 1;
-    var A = [
+    const zero = 0;
+    const one = 1;
+    let A = [
     [ one, one, zero, zero, zero, one, zero, zero, zero, zero, zero, zero,
     zero, zero, zero, zero, zero, zero, zero, zero, zero, zero, zero, zero,
     zero],
@@ -68,37 +68,37 @@
     [zero, zero, zero, zero, zero, zero, zero, zero, zero, zero, zero, zero,
     zero, zero, zero, zero, zero, zero, zero, one, zero, zero, zero, one, one]
     ];
-    var n1 = [zero, one, one, one, zero, one, zero, one, zero, one, one, one,
+    let n1 = [zero, one, one, one, zero, one, zero, one, zero, one, one, one,
         zero, one, one, one, zero, one, zero, one, zero, one, one, one, zero];
-    var n2 = [one, zero, one, zero, one, one, zero, one, zero, one, zero, zero,
+    let n2 = [one, zero, one, zero, one, one, zero, one, zero, one, zero, zero,
         zero, zero, zero, one, zero, one, zero, one, one, zero, one, zero, one];
-    var hide = document.getElementById("hide");
-    var obj = document.querySelectorAll(".row div");
-    var cells = [];
-    for (var key in obj) {
+    const hide = document.getElementById("hide");
+    const obj = document.querySelectorAll(".row div");
+    const cells = [];
+    for (let key in obj) {
         if (obj.hasOwnProperty(key) && key !== "length") {
         cells.push(obj[key]);
         }
     }
 
-    var CopyMatrix = function(M) {
+    let CopyMatrix = function(M) {
         return M.map(function(row) {
         return row.slice();
         });
     };
-    var sumGF2 = function(a, b) {
+    let sumGF2 = function(a, b) {
         return (a !== b) ? one : zero;
     };
-    var multGF2 = function(a, b) {
+    let multGF2 = function(a, b) {
         return a * b;
     };
-    var divGF2 = function(a, b) {
+    let divGF2 = function(a, b) {
         if (b === zero) {
             console.log("Trying to divide by zero!");
         }
         return a;
     };
-    var dotProduct = function(v1, v2) {
+    let dotProduct = function(v1, v2) {
         return v1.map(function(e, index) {
             return multGF2(e, v2[index]);
         }).reduce(function(a, b) {
@@ -106,13 +106,13 @@
         }, 0);
     };
 
-    var rref = function(M) {
-        var N = CopyMatrix(M);
-        var lead = 0;
-        var rowCount = N.length;
-        var columnCount = N[0].length;
+    let rref = function(M) {
+        let N = CopyMatrix(M);
+        let lead = 0;
+        let rowCount = N.length;
+        let columnCount = N[0].length;
 
-        for (var r = 0; r < rowCount; r++) {
+        for (let r = 0; r < rowCount; r++) {
             if (lead >= columnCount) {
             return N;
             }
@@ -127,12 +127,12 @@
                     }
                 }
             }
-            var aux = N[i].slice();
+            let aux = N[i].slice();
             N[i] = N[r].slice();
             N[r] = aux;
-            var lv = N[r][lead];
+            let lv = N[r][lead];
             N[r] = N[r].map(function(e) {
-                return divGF2(e, lv)
+                return divGF2(e, lv);
             });
             for (var i = 0; i < rowCount; i++) {
                 if (i !== r) {
@@ -140,7 +140,7 @@
                     N[i] = N[i].map(function(e, index) {
                 return sumGF2(
                     e,
-                    multGF2(lv, N[r][index]))
+                    multGF2(lv, N[r][index]));
                     });
                 }
             }
@@ -148,39 +148,39 @@
         }
         return N;
     };
-    var getRandomGF2Array = function() {
-    var length = A.length;
-    var arr = [];
-        for (var i = 0; i < length; i++) {
+    const getRandomGF2Array = function() {
+    const length = A.length;
+    let arr = [];
+        for (let i = 0; i < length; i++) {
         arr.push(Math.floor(Math.random() * 2));
         }
         return arr;
     };
-    var getRandomState = function() {
-    var b = getRandomGF2Array();
+    const getRandomState = function() {
+    let b = getRandomGF2Array();
         while (dotProduct(b, n1) !== zero || dotProduct(b, n2) !== zero) {
         b = getRandomGF2Array();
         }
         return b;
     };
-    var youWon = function() {
+    const youWon = function() {
         return document.querySelector(".on") === null;
     };
-    var getCurrentState = function() {
-    var obj = document.querySelectorAll(".on");
-    var b = [zero, zero, zero, zero, zero, zero, zero, zero, zero, zero,
+    const getCurrentState = function() {
+    const obj = document.querySelectorAll(".on");
+    let b = [zero, zero, zero, zero, zero, zero, zero, zero, zero, zero,
         zero, zero, zero, zero, zero, zero, zero, zero, zero, zero, zero,
         zero, zero, zero, zero];
-        for (var key in obj) {
+        for (let key in obj) {
         if (obj.hasOwnProperty(key) && key !== "length") {
             b[obj[key].id - 1] = one;
             }
         }
         return b;
     };
-    var getSolution = function(b) {
-    var B = CopyMatrix(A);
-        for (var i = b.length - 1; i >= 0; i--) {
+    const getSolution = function(b) {
+    let B = CopyMatrix(A);
+        for (let i = b.length - 1; i >= 0; i--) {
             B[i].push(b[i]);
         }
         B = rref(B);
@@ -191,9 +191,9 @@
 
     document.getElementById("shuffle")
             .addEventListener("click", function(event) {
-    var b = getRandomState();
-        for (var i = b.length - 1; i >= 0; i--) {
-    var element = document.getElementById(i + 1);
+    const b = getRandomState();
+        for (let i = b.length - 1; i >= 0; i--) {
+    const element = document.getElementById(i + 1);
         if (b[i] === one) {
             element.className = "on";
             }
@@ -205,11 +205,11 @@
     });
 
     document.getElementById("solve").addEventListener("click", function(event) {
-    var b = getCurrentState();
-    var x = getSolution(b);
+    const b = getCurrentState();
+    let x = getSolution(b);
         x.forEach(function(e, index) {
         if (e === one) {
-    var element = document.getElementById(index + 1);
+    const element = document.getElementById(index + 1);
         element.classList.add("answer");
         element.classList.add("solver");
         }
@@ -228,8 +228,8 @@
 
     cells.forEach(function(e, i) {
         e.addEventListener("click", function(event) {
-    var aux = parseInt(this.id, 10);
-    var toSwitch = [aux, aux - 5, aux + 5];
+    let aux = parseInt(this.id, 10);
+    let toSwitch = [aux, aux - 5, aux + 5];
         if (aux % 5 !== 0) {
             toSwitch.push(aux + 1);
         }
@@ -242,9 +242,9 @@
         else if (this.classList.contains("solver")) {
             this.classList.add("answer");
         }
-        for (var i = toSwitch.length - 1; i >= 0; i--) {
+        for (let i = toSwitch.length - 1; i >= 0; i--) {
         if (toSwitch[i] > 0 && toSwitch[i] <= A.length) {
-        var element = document.getElementById(toSwitch[i]);
+        const element = document.getElementById(toSwitch[i]);
             if (element.classList.contains("on")) {
                 element.classList.remove("on");
             }
