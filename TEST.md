@@ -10,11 +10,15 @@ This is the TEST file for a three-page website, with a Lights Out browser game w
   - [Installation](#installation)
   - [Deployment](#deployment)
 - [Testing](#testing)
+  - [Automated Testing](#automated-testing)
+  - [Manual Testing](#manual-testing)
+  - [Related Tests Completed](#related-tests-completed)
   - [W3C](#w3c)
   - [Accessibility and Performance](#accessibility-and-performance)
     - [PageSpeed Insight](#pageSpeed-insight)
     - [Wave](#wave)
     - [JSLint](#jslint)
+  - [User Stories Tested](#user-stories-tested)
 - [Bugs](#bugs)
 - [Contributing and Maintenance](#contributing-and-maintenance)
 
@@ -52,23 +56,68 @@ The project was deployed to GitHub Pages using the following steps...
 - The website was viewed on a variety of devices such as Desktop, Laptop, Tablets, iPhone 8 and iPhone 14 Pro Max.
 - A large amount of testing was done to ensure that all pages were linking correctly.
 - Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+- Manual exploratory tests were completed to assess functionality, usability and responsiveness of this web application.
+### Automated Testing:
+
+**Principles:**
+
+1. **Repeatability:** Automated tests can be executed repeatedly without any variation in their steps and expected outcomes.
+
+2. **Consistency:** Automated tests perform the same steps and checks each time, eliminating human errors and ensuring consistent results.
+
+3. **Efficiency:** Automated tests can run quickly and efficiently, covering a large number of test cases in a short time.
+
+4. **Regression Testing:** Automated tests are particularly useful for regression testing, where previously tested functionality is retested to ensure that new changes have not introduced defects.
+
+5. **Data-Driven Testing:** Automation allows for data-driven testing, where tests are executed with different sets of data to verify various scenarios.
+
+6. **Continuous Integration/Continuous Deployment (CI/CD):** Automated tests can be integrated into the CI/CD pipeline, allowing for immediate feedback on code changes and ensuring that only high-quality code is deployed.
+
+**When to Deploy Automated Testing:**
+
+- **Regression Testing:** Automated tests are ideal for regularly checking existing functionality after code changes.
+- **Highly Repetitive Tests:** Tasks like data validation, login/logout procedures, and API testing can be automated for efficiency.
+- **Load and Performance Testing:** Automated tools can simulate a large number of users to test system performance under heavy loads.
+- **Cross-Browser and Cross-Platform Testing:** Automated frameworks can be used to test web applications on different browsers and platforms.
+### Manual Testing:
+
+**Principles:**
+
+1. **Exploratory Testing:** Manual testing is excellent for exploratory testing, where testers actively explore the application to discover unforeseen issues and usability problems.
+
+2. **User Experience (UX) Testing:** Manual testers can assess the application's user-friendliness, usability, and overall user experience, providing valuable insights.
+
+3. **Ad Hoc Testing:** In situations where test cases aren't well-defined or documented, manual testers can perform ad hoc testing to identify issues.
+
+4. **Non-Functional Testing:** Tests related to subjective criteria like aesthetics, layout, and overall look and feel are often better suited for manual testing.
+
+**When to Deploy Manual Testing:**
+
+- **Usability Testing:** To evaluate the user interface and overall user experience.
+- **Exploratory Testing:** When new features are introduced or when test cases are not yet well-defined.
+- **Complex Test Scenarios:** For intricate and multi-step test cases where human intuition is required.
+- **Non-Functional Testing:** Assessing subjective aspects like aesthetics, accessibility, and human factors.
+
+In practice, a combination of both automated and manual testing is often employed to ensure comprehensive test coverage. Automated testing is efficient for repetitive and regression testing, while manual testing is valuable for exploratory and usability aspects. The choice between them depends on project requirements, budget constraints, and the specific nature of the testing needed for a particular software application.
+
+### Related Tests Completed
 ### W3C
 
 Within W3C's validators. I have fully tested the one **CSS** stylesheet via the **Direct Input** method. I have also fully tested all three **HTML** pages via the **URI Input** method. No fails were found and all warnings were fully resolved and have now **passed all checks**.
 
-![W3C CSS Validation](/assets/docs/lights-out-css-pass.jpeg)
+![W3C CSS Validation](/assets/test-images/lights-out-css-pass.jpeg)
 
 [CSS Validator](https://jigsaw.w3.org/css-validator/)
 
-![W3C HTML Validation](/assets/docs/lights-out-html-pass.jpeg)
+![W3C HTML Validation](/assets/test-images/lights-out-html-pass.jpeg)
 
 [HTML Validator](https://validator.w3.org)
 ### Accessibility and Performance
 
-![I Am Responsive](/assets/docs/responsive-demo.jpeg)
+![I Am Responsive](/assets/test-images/responsive-demo.jpeg)
 #### PageSpeed Insight
 
-![PageSpeed Insight](/assets/docs/pagespeed-insight.jpeg)
+![PageSpeed Insight](/assets/test-images/pagespeed-insight.jpeg)
 
 [PageSpeed](https://pagespeed.web.dev)
 
@@ -81,16 +130,123 @@ The slower-than-expected performance during website loading can be attributed to
 
 I have also tested this site with **Wave** for accessibility and performance. Major contrast issues were corrected and the 5 remaining contrast issues were thought not to be of concern.
 
-![Wave Test Results](/assets/docs/wave-test.jpeg)
+![Wave Test Results](/assets/test-images/wave-test.jpeg)
 
 [Wave](https://wave.webaim.org)
 #### JSLint
 
 I have passed all Java Script code through **JSLint** and only 2 warnings were reported, with no fundamental errors reported. The warnings are not of concern, as the code correctly runs without issue.
 
-![JSLint Test Results](/assets/docs/jslint-check.jpeg)
+![JSLint Test Results](/assets/test-images/jslint-check.jpeg)
 
 [JSLint](https://www.jslint.com)
+### User Stories Tested
+
+**Title:** Lights Out - Mobile Puzzle Game
+
+**User Story 1: Starting the Game**
+  **As** a player,
+  **I want** to launch the Lights Out game on my mobile or desktop device,
+  **So that** I can start playing the game quickly.
+
+**Test Case:**
+  **Given** the game is loaded within my mobile or desktop device's browser window,
+  **When** I visit the game's website or use a saved bookmark in my browser,
+  **Then** the game should load without errors,
+  **And** the main game screen with a grid of light tiles should be displayed.
+
+**User Story 2: Gameplay Mechanics**
+  **As** a player,
+  **I want** to tap a light tile to toggle its state and adjacent tiles,
+  **So that** I can progress through the game by turning off all the lights.
+
+**Test Case:**
+  **Given** I am on the main game screen,
+  **When** I tap a light tile,
+  **Then** the selected light tile should toggle its state,
+  **And** the adjacent light tiles (up, down, left, right) should also toggle their states.
+
+![Test 2 Before](/assets/test-images/test2-before.jpeg)
+![Test 2 After](/assets/test-images/test2-after.jpeg)
+
+**User Story 3: Objective Completion**
+  **As** a player,
+  **I want** to turn off all the lights on the grid,
+  **So that** I can complete the level and receive a congratulations message.
+
+**Test Case:**
+  **Given** a level with a grid of lights,
+  **When** I toggle the lights in a strategic manner,
+  **And** all lights are turned off,
+  **Then** a victory message should be displayed,
+  **And** I should be able to proceed to the next level if applicable.
+
+**User Story 4: Level Progression (Optional)**
+  **As** a player,
+  **I want** to be rewarded and challenged as I complete levels,
+  **So that** I can experience a sense of accomplishment and enjoy increasing difficulty.
+
+**Test Case:**
+  **Given** I complete a level by turning off all lights,
+  **When** the level ends,
+  **Then** a congratulatory message should be displayed,
+  **And** the next level, with a larger grid and more complex patterns, should be unlocked and available to play.
+
+**User Story 5: Hint System**
+  **As** a player,
+  **I want** to receive hints when I'm stuck on a level,
+  **So that** I can progress through challenging levels without frustration.
+
+**Test Case:**
+  **Given** I'm playing a level and tap the hint button,
+  **When** the hint is provided,
+  **Then** the hint should guide me by showing a sequence of light toggles,
+  **And** the sequence should help me advance closer to solving the level.
+
+**User Story 6: Resetting a Level**
+  **As** a player,
+  **I want** to be able to reset a level if I'm struggling or want to start over,
+  **So that** I can improve my strategy and attempt the level again.
+
+**Test Case:**
+  **Given** I'm playing a level and want to reset it,
+  **When** I tap the reset button,
+  **Then** all light tiles on the grid should return to their initial states,
+  **And** I should be able to make a fresh attempt at solving the level.
+
+**User Story 7: Menu Options**
+  **As** a player,
+  **I want** access to various options from the in-game menu,
+  **So that** I can manage my game progress and customize my experience.
+
+**Test Case:**
+  **Given** I'm playing the game,
+  **When** I tap the menu button,
+  **Then** a menu should appear with options such as changing the theme, changing the level difficulty, accessing settings, and quitting the game.
+
+**User Story 8: Settings**
+  **As** a player,
+  **I want** to be able to adjust game settings to my preferences,
+  **So that** I can enjoy the game in a way that suits me.
+
+**Test Cases:**
+  **Given** I access the settings from the menu,
+  **When** I navigate to the settings screen,
+  **Then** I should be able to adjust settings like theme effects and level difficulty,
+  **And** the changes I make should be applied and maintained for subsequent sessions.
+
+**User Story 9: Accessibility Features (Optional)**
+  **As** a player with accessibility needs,
+  **I want** the game to be inclusive and accessible,
+  **So that** I can enjoy the game regardless of my individual requirements.
+
+**Test Cases:**
+  **Given** I play the game with accessibility features enabled,
+  **When** I adjust settings like font sizes, no flickering effects or colorblind-friendly modes,
+  **Then** the game interface should reflect these changes,
+  **And** if I confirm, the game should play as I require, and without errors.
+
+These user stories and corresponding test cases cover the basic functionality and interactions of the "Lights Out" browser game. Additional user stories could be developed for optional features like leaderboards, achievements and in-app purchases, based on the game's design and goals.
 ## Bugs
 
 **Overall Performance**

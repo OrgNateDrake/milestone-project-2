@@ -4,7 +4,7 @@
 
 This is the README file for a three-page website, with a Lights Out browser game within. **Themes: City Lights, Mars Attacks, and Jungle.**
 
-![I Am Responsive](/assets/docs/responsive-demo.jpeg)
+![I Am Responsive](/assets/test-images/responsive-demo.jpeg)
 
 [Am I Responsive](https://ui.dev/amiresponsive?url=https://orgnatedrake.github.io/milestone-project-2/)
 ## Table of Contents
@@ -78,101 +78,47 @@ The project was deployed to GitHub Pages using the following steps...
   **I want** to launch the Lights Out game on my mobile or desktop device,
   **So that** I can start playing the game quickly.
 
-**Test Case:**
-  **Given** the game is loaded within my mobile or desktop device's browser window,
-  **When** I visit the game's website or use a saved bookmark in my browser,
-  **Then** the game should load without errors,
-  **And** the main game screen with a grid of light tiles should be displayed.
-
 **User Story 2: Gameplay Mechanics**
   **As** a player,
   **I want** to tap a light tile to toggle its state and adjacent tiles,
   **So that** I can progress through the game by turning off all the lights.
-
-**Test Case:**
-  **Given** I am on the main game screen,
-  **When** I tap a light tile,
-  **Then** the selected light tile should toggle its state,
-  **And** the adjacent light tiles (up, down, left, right) should also toggle their states.
 
 **User Story 3: Objective Completion**
   **As** a player,
   **I want** to turn off all the lights on the grid,
   **So that** I can complete the level and receive a congratulations message.
 
-**Test Case:**
-  **Given** a level with a grid of lights,
-  **When** I toggle the lights in a strategic manner,
-  **And** all lights are turned off,
-  **Then** a victory message should be displayed,
-  **And** I should be able to proceed to the next level if applicable.
-
 **User Story 4: Level Progression (Optional)**
   **As** a player,
   **I want** to be rewarded and challenged as I complete levels,
   **So that** I can experience a sense of accomplishment and enjoy increasing difficulty.
-
-**Test Case:**
-  **Given** I complete a level by turning off all lights,
-  **When** the level ends,
-  **Then** a congratulatory message should be displayed,
-  **And** the next level, with a larger grid and more complex patterns, should be unlocked and available to play.
 
 **User Story 5: Hint System**
   **As** a player,
   **I want** to receive hints when I'm stuck on a level,
   **So that** I can progress through challenging levels without frustration.
 
-**Test Case:**
-  **Given** I'm playing a level and tap the hint button,
-  **When** the hint is provided,
-  **Then** the hint should guide me by showing a sequence of light toggles,
-  **And** the sequence should help me advance closer to solving the level.
-
 **User Story 6: Resetting a Level**
   **As** a player,
   **I want** to be able to reset a level if I'm struggling or want to start over,
   **So that** I can improve my strategy and attempt the level again.
-
-**Test Case:**
-  **Given** I'm playing a level and want to reset it,
-  **When** I tap the reset button,
-  **Then** all light tiles on the grid should return to their initial states,
-  **And** I should be able to make a fresh attempt at solving the level.
 
 **User Story 7: Menu Options**
   **As** a player,
   **I want** access to various options from the in-game menu,
   **So that** I can manage my game progress and customize my experience.
 
-**Test Case:**
-  **Given** I'm playing the game,
-  **When** I tap the menu button,
-  **Then** a menu should appear with options such as changing the theme, changing the level difficulty, accessing settings, and quitting the game.
-
 **User Story 8: Settings**
   **As** a player,
   **I want** to be able to adjust game settings to my preferences,
   **So that** I can enjoy the game in a way that suits me.
-
-**Test Cases:**
-  **Given** I access the settings from the menu,
-  **When** I navigate to the settings screen,
-  **Then** I should be able to adjust settings like theme effects and level difficulty,
-  **And** the changes I make should be applied and maintained for subsequent sessions.
 
 **User Story 9: Accessibility Features (Optional)**
   **As** a player with accessibility needs,
   **I want** the game to be inclusive and accessible,
   **So that** I can enjoy the game regardless of my individual requirements.
 
-**Test Cases:**
-  **Given** I play the game with accessibility features enabled,
-  **When** I adjust settings like font sizes, no flickering effects or colorblind-friendly modes,
-  **Then** the game interface should reflect these changes,
-  **And** if I confirm, the game should play as I require, and without errors.
-
-These user stories and corresponding test cases cover the basic functionality and interactions of the "Lights Out" browser game. Additional user stories could be developed for optional features like leaderboards, achievements and in-app purchases, based on the game's design and goals.
+These user stories cover the basic functionality and interactions of the "Lights Out" browser game. Additional user stories could be developed for optional features like leaderboards, achievements and in-app purchases, based on the game's design and goals.
 ### Design Choices
 #### Design Choices for the Light Out Browser Game
 
