@@ -181,6 +181,8 @@ I have passed all Java Script code through **JSLint** and only 2 warnings were r
   **Then** a victory message should be displayed,
   **And** I should be able to proceed to the next level if applicable.
 
+![Win Message](/assets/test-images/win-message.jpeg)
+
 **User Story 4: Level Progression (Optional)**
   **As** a player,
   **I want** to be rewarded and challenged as I complete levels,
@@ -203,6 +205,9 @@ I have passed all Java Script code through **JSLint** and only 2 warnings were r
   **Then** the hint should guide me by showing a sequence of light toggles,
   **And** the sequence should help me advance closer to solving the level.
 
+![Test 5 Button](/assets/test-images/test5-btn.jpeg)
+![Test 5 Solution](/assets/test-images/test5-solution.jpeg)
+
 **User Story 6: Resetting a Level**
   **As** a player,
   **I want** to be able to reset a level if I'm struggling or want to start over,
@@ -223,6 +228,8 @@ I have passed all Java Script code through **JSLint** and only 2 warnings were r
   **Given** I'm playing the game,
   **When** I tap the menu button,
   **Then** a menu should appear with options such as changing the theme, changing the level difficulty, accessing settings, and quitting the game.
+
+![Menu](/assets/test-images/menu-mobile-view.jpeg)
 
 **User Story 8: Settings**
   **As** a player,

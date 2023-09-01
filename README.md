@@ -119,6 +119,8 @@ The project was deployed to GitHub Pages using the following steps...
   **So that** I can enjoy the game regardless of my individual requirements.
 
 These user stories cover the basic functionality and interactions of the "Lights Out" browser game. Additional user stories could be developed for optional features like leaderboards, achievements and in-app purchases, based on the game's design and goals.
+
+Please see the [TEST.md] (https://github.com/OrgNateDrake/milestone-project-2/blob/main/TEST.md) file for tested examples.
 ### Design Choices
 #### Design Choices for the Light Out Browser Game
 
