@@ -253,7 +253,7 @@ I have passed all Java Script code through **JSLint** and only 2 warnings were r
   **Then** the game interface should reflect these changes,
   **And** if I confirm, the game should play as I require, and without errors.
 
-These user stories and corresponding test cases cover the basic functionality and interactions of the "Lights Out" browser game. Additional user stories could be developed for optional features like leaderboards, achievements and in-app purchases, based on the game's design and goals.
+These user stories and corresponding test cases cover the basic functionality and interactions of the "Lights Out" browser game. Additional user stories could be developed for optional features like leader-boards, achievements and in-app purchases, based on the game's design and goals.
 ## Bugs
 
 **Overall Performance**
