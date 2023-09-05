@@ -1726,3 +1726,24 @@ body {
         padding-top: 25px;
     }
 }
+
+/* ================================================================ 404 Error Page ================================================================= */
+
+.img-404 {
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 600px;
+    width: 600px;
+}
+
+@media (min-width:320px) and (max-width:414px){
+
+    .img-404 {
+        height: 300px;
+        width: 300px;
+    }
+
+
+}

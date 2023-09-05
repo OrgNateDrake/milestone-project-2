@@ -1,9 +1,9 @@
 (function() {
   "use strict";
 
-    const zero = 0;
-    const one = 1;
-    let A = [
+    let zero = 0;
+    let one = 1;
+    const A = [
     [ one, one, zero, zero, zero, one, zero, zero, zero, zero, zero, zero,
     zero, zero, zero, zero, zero, zero, zero, zero, zero, zero, zero, zero,
     zero],
@@ -68,13 +68,13 @@
     [zero, zero, zero, zero, zero, zero, zero, zero, zero, zero, zero, zero,
     zero, zero, zero, zero, zero, zero, zero, one, zero, zero, zero, one, one]
     ];
-    let n1 = [zero, one, one, one, zero, one, zero, one, zero, one, one, one,
+    const n1 = [zero, one, one, one, zero, one, zero, one, zero, one, one, one,
         zero, one, one, one, zero, one, zero, one, zero, one, one, one, zero];
-    let n2 = [one, zero, one, zero, one, one, zero, one, zero, one, zero, zero,
+    const n2 = [one, zero, one, zero, one, one, zero, one, zero, one, zero, zero,
         zero, zero, zero, one, zero, one, zero, one, one, zero, one, zero, one];
     const hide = document.getElementById("hide");
     const obj = document.querySelectorAll(".row div");
-    const cells = [];
+    let cells = [];
     for (let key in obj) {
         if (obj.hasOwnProperty(key) && key !== "length") {
         cells.push(obj[key]);
@@ -148,15 +148,15 @@
         }
         return N;
     };
-    const getRandomGF2Array = function() {
-    const length = A.length;
+    let getRandomGF2Array = function() {
+    let length = A.length;
     let arr = [];
         for (let i = 0; i < length; i++) {
         arr.push(Math.floor(Math.random() * 2));
         }
         return arr;
     };
-    const getRandomState = function() {
+    let getRandomState = function() {
     let b = getRandomGF2Array();
         while (dotProduct(b, n1) !== zero || dotProduct(b, n2) !== zero) {
         b = getRandomGF2Array();
@@ -166,8 +166,8 @@
     const youWon = function() {
         return document.querySelector(".on") === null;
     };
-    const getCurrentState = function() {
-    const obj = document.querySelectorAll(".on");
+    let getCurrentState = function() {
+    let obj = document.querySelectorAll(".on");
     let b = [zero, zero, zero, zero, zero, zero, zero, zero, zero, zero,
         zero, zero, zero, zero, zero, zero, zero, zero, zero, zero, zero,
         zero, zero, zero, zero];
@@ -178,7 +178,7 @@
         }
         return b;
     };
-    const getSolution = function(b) {
+    let getSolution = function(b) {
     let B = CopyMatrix(A);
         for (let i = b.length - 1; i >= 0; i--) {
             B[i].push(b[i]);
@@ -191,9 +191,9 @@
 
     document.getElementById("shuffle")
             .addEventListener("click", function(event) {
-    const b = getRandomState();
+    let b = getRandomState();
         for (let i = b.length - 1; i >= 0; i--) {
-    const element = document.getElementById(i + 1);
+    let element = document.getElementById(i + 1);
         if (b[i] === one) {
             element.className = "on";
             }
@@ -205,11 +205,11 @@
     });
 
     document.getElementById("solve").addEventListener("click", function(event) {
-    const b = getCurrentState();
+    let b = getCurrentState();
     let x = getSolution(b);
         x.forEach(function(e, index) {
         if (e === one) {
-    const element = document.getElementById(index + 1);
+    let element = document.getElementById(index + 1);
         element.classList.add("answer");
         element.classList.add("solver");
         }
