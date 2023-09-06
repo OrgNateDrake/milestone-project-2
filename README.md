@@ -11,6 +11,7 @@ This is the README file for a three-page website, with a Lights Out browser game
 
 - [Introduction](#introduction)
   - [Programming Languages](#programming-languages)
+  - [JavaScript Side Notes](#javascript-side-notes)
 - [Features](#features)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
@@ -28,12 +29,33 @@ This is the README file for a three-page website, with a Lights Out browser game
 ## Introduction
 
 Imagine a captivating three-page website that boasts a mesmerizing JavaScript game known as "Lights Out". The website's minimalist yet elegant design draws users in with its clean interface and soothing color palettes. Upon entering the game page, players are immersed in the challenge of "Lights Out," a clever puzzle that demands strategic thinking. The game grid, '5x5' delicately aligned with clickable tiles, commands attention at the center of the page. As players engage with the game, the intelligent use of JavaScript brings the puzzle to life, creating an interactive experience that's both intellectually stimulating and visually engaging. Overall, this three-page website artfully balances simplicity and interactivity, making it an irresistible hub for fans of brain-teasing games like "Lights Out.
-## Programming Languages
+### Programming Languages
 
 1. **HTML5**
 2. **Bootstrap v5.3**
 3. **CSS3**
 4. **JS**
+### JavaScript Side Notes
+
+**Finite Field**
+
+A Finite Field or Galois field (so-named in honor of Évariste Galois) is a field that contains a finite number of elements. As with any field, a finite field is a set on which the operations of multiplication, addition, subtraction, and division are defined and satisfy certain basic rules.
+
+**Reduced Row Echelon Form**
+
+A matrix is in Reduced Row Echelon Form (also called Row Canonical Form) if it satisfies the following conditions:
+
+1. It is in row echelon form.
+2. The leading entry in each nonzero row is a 1 (called a leading 1).
+3. Each column containing a leading 1 has zeros in all its other entries.
+
+**Orthogonality**
+
+Orthogonality is the property that means "Changing A does not change B". An example of an orthogonal system would be a radio, where changing the station does not change the volume and vice-versa.
+
+A non-orthogonal system would be like a helicopter where changing the speed can change the direction.
+
+In programming languages, this means that when you execute an instruction, nothing but that instruction happens (which is very important for debugging).
 ## Features
 
 - Main Game: Overall, this three-page website artfully balances simplicity and interactivity, making it an irresistible hub for fans of  brain-teasing games like "Lights Out."

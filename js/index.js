@@ -1,5 +1,7 @@
-(function() {
-  "use strict";
+(function() {;
+
+/* Numbers Zero and One are removed from the Finite Field. 
+(See README 'JavaScript Side Notes' for full explanation.) */
 
     let zero = 0;
     let one = 1;
@@ -106,6 +108,8 @@
         }, 0);
     };
 
+    /* Returns the Reduced Row Echelon Form representation of the M Matrix. 
+    (See README 'JavaScript Side Notes' for full explanation.) */
     let rref = function(M) {
         let N = CopyMatrix(M);
         let lead = 0;
@@ -156,6 +160,9 @@
         }
         return arr;
     };
+
+    /* Check for Orthogonality (e.g. changing A does not change B). For (b, n1) and (b, n2) 
+    so that b is a winnable state. (See README 'JavaScript Side Notes' for full explanation.) */
     let getRandomState = function() {
     let b = getRandomGF2Array();
         while (dotProduct(b, n1) !== zero || dotProduct(b, n2) !== zero) {
