@@ -13,6 +13,11 @@ This is the TEST file for a three-page website, with a Lights Out browser game w
   - [Automated Testing](#automated-testing)
   - [Manual Testing](#manual-testing)
   - [Related Tests Completed](#related-tests-completed)
+    - [Manual Exploratory Tests](#manual-exploratory-tests)
+    - [Functionality Testing](#functionality-testing)
+    - [Usability Testing](#usability-testing)
+    - [Responsiveness Testing](#responsiveness-testing)
+    - [Edge Cases](#edge-cases)
   - [W3C](#w3c)
   - [Accessibility and Performance](#accessibility-and-performance)
     - [PageSpeed Insight](#pageSpeed-insight)
@@ -99,8 +104,44 @@ The project was deployed to GitHub Pages using the following steps...
 - **Non-Functional Testing:** Assessing subjective aspects like aesthetics, accessibility, and human factors.
 
 In practice, a combination of both automated and manual testing is often employed to ensure comprehensive test coverage. Automated testing is efficient for repetitive and regression testing, while manual testing is valuable for exploratory and usability aspects. The choice between them depends on project requirements, budget constraints, and the specific nature of the testing needed for a particular software application.
-
 ### Related Tests Completed
+#### Manual Exploratory Tests
+
+To ensure the functionality, usability, and responsiveness of my Lights Out browser game, a series of manual exploratory tests were conducted. These tests allowed me to thoroughly assess the game's performance and user experience across various scenarios and devices.
+#### Functionality Testing
+
+1. **Game Initialisation:** Checked if the game initialises correctly and displays the grid of lights.
+
+2. **Clicking Lights:** Tested if clicking on individual lights toggles their state correctly.
+
+3. **Winning Condition:** Verified that the game detects and congratulates the player when all lights are turned off.
+
+4. **Reset Functionality:** Ensured that the shuffle button works as expected, resetting the game to its initial state.
+#### Usability Testing
+
+1. **User Interface (UI):** Evaluated the overall design and layout of the game for clarity and ease of use.
+
+2. **Instructions:** Confirmed that instructions on how to play the game are clear and understandable.
+
+3. **Feedback:** Assessed whether the game provides feedback to the user for their actions, such as successful moves, hints and game completion.
+
+4. **Accessibility:** Checked for accessibility features, ensuring that the game is usable by people with disabilities.
+#### Responsiveness Testing
+
+1. **Browser Compatibility:** Tested the game on various browsers (e.g., Chrome, Firefox, Safari) to ensure it functions consistently.
+
+2. **Mobile Devices:** Checked how the game behaves on different mobile devices and screen sizes.
+
+3. **Tablets:** Ensured that the game is responsive on tablet devices, maintaining usability and performance.
+
+4. **Scaling:** Verified that the game scales appropriately when the browser window is resized.
+#### Edge Cases
+
+1. **Extreme Inputs:** Attempted to break the game by performing extreme actions, such as rapidly clicking lights or resizing the window during gameplay.
+
+2. **Network Interruptions:** Simulated network interruptions to assess how the game handles potential connectivity issues.
+
+These manual exploratory tests were essential in identifying and addressing potential issues, ensuring that my Lights Out browser game delivers a seamless and enjoyable gaming experience to users of all kinds. If you encounter any issues or have feedback, please don't hesitate to report them to me.
 ### W3C
 
 Within W3C's validators. I have fully tested the one **CSS** stylesheet via the **Direct Input** method. I have also fully tested all three **HTML** pages via the **URI Input** method. No fails were found and all warnings were fully resolved and have now **passed all checks**.
